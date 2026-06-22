@@ -1,0 +1,141 @@
+{
+  "workflow": "Shanhaijing 2x2 Image Pipeline v1",
+  "created_at": "2026-06-22T22:57:59",
+  "project_root": "F:\\我的编程项目\\80_山海经图鉴",
+  "run_root": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260622-225422-batch03",
+  "master_board": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260622-225422-batch03\\masters\\board.png",
+  "master_board_sha256": "79eaded0491d63026b2e2274e29d4bedfa83d6dd540de32463aa8ae65c92582f",
+  "items_file": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260622-225422-batch03\\items.json",
+  "tmp_folder": "C:\\tmp\\shanhaijing_imagegen_20260622-225422-batch03",
+  "crop_strategy": "exact_halves_row_major",
+  "master_board_ratio": 0.800285,
+  "realesrgan": {
+    "enabled": true,
+    "executable": "F:\\Real-ESRGAN\\realesrgan-ncnn-vulkan-20210901-windows\\realesrgan-ncnn-vulkan.exe",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "rule": "raw crops go directly to Real-ESRGAN; no pre-upscaling"
+  },
+  "web_output": {
+    "format": "webp",
+    "quality": 88,
+    "size": [
+      1600,
+      2000
+    ]
+  },
+  "outputs": [
+    {
+      "name": "肥遗",
+      "slug": "feiyi",
+      "version": "v01",
+      "row": 1,
+      "col": 1,
+      "coords": [
+        0,
+        0,
+        561,
+        701
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-225422-batch03\\raw\\01_feiyi_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-225422-batch03\\x4\\01_feiyi_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_feiyi_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "947ce25a0869f98774780506e376fab85c2b556304d271981bd1d86b666c3f02",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    },
+    {
+      "name": "葱聋",
+      "slug": "conglong",
+      "version": "v01",
+      "row": 1,
+      "col": 2,
+      "coords": [
+        561,
+        0,
+        1122,
+        701
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-225422-batch03\\raw\\02_conglong_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-225422-batch03\\x4\\02_conglong_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_conglong_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "c85032fb8253b4c26308180dad29ff1972939fffd58d3f15389e9f7786056a64",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    },
+    {
+      "name": "嚣",
+      "slug": "xiao",
+      "version": "v01",
+      "row": 2,
+      "col": 1,
+      "coords": [
+        0,
+        701,
+        561,
+        1402
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-225422-batch03\\raw\\03_xiao_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-225422-batch03\\x4\\03_xiao_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_xiao_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "d803a693eddef3883b9b5c3e25eb57cd204a3be80865d6c24e050bacbe78bf0a",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    },
+    {
+      "name": "豪彘",
+      "slug": "haozhi",
+      "version": "v01",
+      "row": 2,
+      "col": 2,
+      "coords": [
+        561,
+        701,
+        1122,
+        1402
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-225422-batch03\\raw\\04_haozhi_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-225422-batch03\\x4\\04_haozhi_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_haozhi_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "275d7c53401f07e13b28141a07f033ccd66e7f219cc72b1e97d1ebf74765491c",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    }
+  ]
+}

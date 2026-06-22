@@ -1,0 +1,34 @@
+{
+  "slug": "haozhi",
+  "name": "豪彘",
+  "alias": "原文又作 毫彘",
+  "pinyin": "HÁO ZHÌ",
+  "type": "beast",
+  "tags": [],
+  "volume": 2,
+  "book": "西山经",
+  "scroll": "卷二",
+  "seq": 30,
+  "plate": "拾陆",
+  "mark": "彘",
+  "location": "竹山",
+  "region": "西山首经",
+  "mapPos": { "x": 0.08, "y": 0.58 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_haozhi_v01.webp",
+  "imageClass": "",
+  "imageAlt": "豪彘，竹山中白色长毛末端发黑的巨型豚兽古籍工笔图",
+  "imageTag": "豚身 · 白毛 · 黑端",
+  "quote": "有兽焉，其状如豚而白毛，大如笄而黑端，名曰毫彘。",
+  "summary": "豪彘栖息于竹山，形体如豚，遍身长着粗大的白色刚毛，每根末端呈黑色，正是古人对豪猪形貌的凝练记录。它没有附带神能或灾兆，最突出的辨识特征就是白毛、黑端与厚重豚身。",
+  "facts": [
+    { "label": "所居", "value": "竹山", "basis": "text" },
+    { "label": "形貌", "value": "其状如豚", "basis": "text" },
+    { "label": "毛色", "value": "白毛而黑端", "basis": "text" },
+    { "label": "尺度", "value": "大如笄", "basis": "text" }
+  ],
+  "sourceNote": "竹山条底本文字作“毫彘”，后世常写作“豪彘”，一般视为豪猪类动物。图像采用猪科与豪猪特征结合的体态，强化白色长刺和黑色尖端。",
+  "references": [
+    { "book": "西山经", "text": "竹山……有兽焉，其状如豚而白毛，大如笄而黑端，名曰毫彘。" }
+  ]
+}

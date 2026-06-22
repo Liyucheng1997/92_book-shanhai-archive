@@ -1,0 +1,34 @@
+{
+  "slug": "conglong",
+  "name": "葱聋",
+  "alias": "符禺赤鬣之羊",
+  "pinyin": "CŌNG LÓNG",
+  "type": "beast",
+  "tags": [],
+  "volume": 2,
+  "book": "西山经",
+  "scroll": "卷二",
+  "seq": 20,
+  "plate": "拾肆",
+  "mark": "葱",
+  "location": "符禺之山",
+  "region": "西山首经",
+  "mapPos": { "x": 0.14, "y": 0.42 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_conglong_v01.webp",
+  "imageClass": "",
+  "imageAlt": "葱聋，符禺山中羊身赤鬣的异兽古籍工笔图",
+  "imageTag": "羊身 · 赤鬣 · 符禺",
+  "quote": "符禺之山，其兽多葱聋，其状如羊而赤鬣。",
+  "summary": "葱聋生活在铜铁丰富的符禺山，整体形貌如羊，颈肩却生着鲜明的赤色鬣毛。经文没有赋予它灾兆或食人等能力，因此图像保持朴实的山羊结构，只以赤鬣作为唯一异征和视觉记忆点。",
+  "facts": [
+    { "label": "所居", "value": "符禺之山", "basis": "text" },
+    { "label": "形貌", "value": "其状如羊", "basis": "text" },
+    { "label": "异征", "value": "赤鬣", "basis": "text" },
+    { "label": "图像推定", "value": "山羊体态 · 卷角", "basis": "inferred" }
+  ],
+  "sourceNote": "葱聋见于《西山经》符禺之山。原文仅写羊形赤鬣，图像中的卷角、毛色层次与体格采用山羊类解剖补足，均属于艺术推定。",
+  "references": [
+    { "book": "西山经", "text": "符禺之山……其兽多葱聋，其状如羊而赤鬣。" }
+  ]
+}

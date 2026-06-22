@@ -1,0 +1,34 @@
+{
+  "slug": "xuangui",
+  "name": "旋龟",
+  "alias": "怪水鸟首之龟",
+  "pinyin": "XUÁN GUĪ",
+  "type": "fish",
+  "tags": [],
+  "volume": 1,
+  "book": "南山经",
+  "scroll": "卷一",
+  "seq": 30,
+  "plate": "拾",
+  "mark": "旋",
+  "location": "杻阳之山 · 怪水",
+  "region": "南山首经",
+  "mapPos": { "x": 0.4, "y": 0.73 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_xuangui_v01.webp",
+  "imageClass": "",
+  "imageAlt": "旋龟，龟身鸟首蛇尾的怪水异兽古籍工笔图",
+  "imageTag": "龟身 · 鸟首 · 虺尾",
+  "quote": "其中多玄龟，其状如龟而鸟首虺尾，其名曰旋龟，其音如判木。",
+  "summary": "旋龟生活在杻阳山流出的怪水中，主体如龟，却长着鸟首与虺蛇般的尾巴，叫声如同劈木。经文还说佩戴它可以避免耳聋，并可用于治疗足底胼胝，是南山水族中结构鲜明的一种。",
+  "facts": [
+    { "label": "所居", "value": "杻阳之山 · 怪水", "basis": "text" },
+    { "label": "形貌", "value": "如龟而鸟首虺尾", "basis": "text" },
+    { "label": "鸣声", "value": "其音如判木", "basis": "text" },
+    { "label": "传说", "value": "佩之不聋 · 可以为底", "basis": "text" }
+  ],
+  "sourceNote": "旋龟见于《南山经》杻阳之山怪水。图像以真实龟类骨架为主体，将鸟首与蛇尾作自然衔接；羽色、甲纹与具体鸟种均属艺术推定。",
+  "references": [
+    { "book": "南山经", "text": "怪水出焉，而东流注于宪翼之水。其中多玄龟，其状如龟而鸟首虺尾，其名曰旋龟，其音如判木。" }
+  ]
+}

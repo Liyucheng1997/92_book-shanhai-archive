@@ -1,0 +1,34 @@
+{
+  "slug": "xiao",
+  "name": "嚣",
+  "alias": "羭次善投之兽",
+  "pinyin": "XIĀO",
+  "type": "beast",
+  "tags": [],
+  "volume": 2,
+  "book": "西山经",
+  "scroll": "卷二",
+  "seq": 40,
+  "plate": "拾伍",
+  "mark": "囂",
+  "location": "羭次之山",
+  "region": "西山首经",
+  "mapPos": { "x": 0.18, "y": 0.7 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_xiao_v01.webp",
+  "imageClass": "",
+  "imageAlt": "嚣，羭次山中长臂善投的禺形异兽古籍工笔图",
+  "imageTag": "如禺 · 长臂 · 善投",
+  "quote": "有兽焉，其状如禺而长臂，善投，其名曰嚣。",
+  "summary": "嚣出现在羭次山，形貌如禺，双臂格外修长，并擅长投掷。原文没有记载其他复合器官或神异能力，因此图像采用真实灵长类骨架，将长臂和举石欲投的动作作为主要识别特征。",
+  "facts": [
+    { "label": "所居", "value": "羭次之山", "basis": "text" },
+    { "label": "形貌", "value": "其状如禺", "basis": "text" },
+    { "label": "异征", "value": "长臂", "basis": "text" },
+    { "label": "行动", "value": "善投", "basis": "text" }
+  ],
+  "sourceNote": "嚣见于《西山经》羭次之山。本条替换生成清单中原文无法核实的“鳘/鳋鱼类”；“禺”的具体物种有解释空间，图像采用猿类体态作艺术推定。",
+  "references": [
+    { "book": "西山经", "text": "羭次之山……有兽焉，其状如禺而长臂，善投，其名曰嚣。" }
+  ]
+}

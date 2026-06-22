@@ -1,0 +1,34 @@
+{
+  "slug": "lu",
+  "name": "鯥",
+  "alias": "冬死夏生之鱼",
+  "pinyin": "LÙ",
+  "type": "fish",
+  "tags": [],
+  "volume": 1,
+  "book": "南山经",
+  "scroll": "卷一",
+  "seq": 40,
+  "plate": "玖",
+  "mark": "鯥",
+  "location": "柢山",
+  "region": "南山首经",
+  "mapPos": { "x": 0.52, "y": 0.94 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_lu_v01.webp",
+  "imageClass": "",
+  "imageAlt": "鯥，牛形蛇尾且胁下生翼的陵居异鱼古籍工笔图",
+  "imageTag": "牛形 · 蛇尾 · 胁翼",
+  "quote": "有鱼焉，其状如牛，陵居，蛇尾有翼，其羽在魼下，其名曰鯥，冬死而夏生。",
+  "summary": "鯥虽被经文归为鱼类，形体却如牛，居住在山陵，长有蛇尾与胁下羽翼。它会在冬季蛰伏如死，夏季重新活动，古人又认为食用它可以免除肿疾，呈现出水族与陆兽交叠的奇异形态。",
+  "facts": [
+    { "label": "形貌", "value": "其状如牛 · 蛇尾有翼", "basis": "text" },
+    { "label": "栖居", "value": "陵居", "basis": "text" },
+    { "label": "时令", "value": "冬死而夏生", "basis": "text" },
+    { "label": "传说", "value": "食之无肿疾", "basis": "text" }
+  ],
+  "sourceNote": "鯥见于《南山经》柢山。原文称其为鱼却又说形如牛、陵居；图像保留牛形主体，以鳞理提示水族归属，不把这种分类张力强行消解。",
+  "references": [
+    { "book": "南山经", "text": "有鱼焉，其状如牛，陵居，蛇尾有翼，其羽在魼下，其音如留牛，其名曰鯥，冬死而夏生，食之无肿疾。" }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "huanhuan",
+  "name": "灌灌",
+  "alias": "青丘辟惑之鸟",
+  "pinyin": "GUÀN GUÀN",
+  "type": "bird",
+  "tags": [],
+  "volume": 1,
+  "book": "南山经",
+  "scroll": "卷一",
+  "seq": 80,
+  "plate": "拾壹",
+  "mark": "灌",
+  "location": "青丘之山",
+  "region": "南山首经",
+  "mapPos": { "x": 0.78, "y": 0.94 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_huanhuan_v01.webp",
+  "imageClass": "",
+  "imageAlt": "灌灌，青丘山中形如斑鸠的辟惑怪鸟古籍工笔图",
+  "imageTag": "如鸠 · 若呵 · 不惑",
+  "quote": "有鸟焉，其状如鸠，其音若呵，名曰灌灌，佩之不惑。",
+  "summary": "灌灌是青丘山中的鸠形怪鸟，外貌并不繁复，鸣声却像人在厉声呵斥。古人相信佩戴它的羽毛或相关物件可以使人不受迷惑；画面因此保持真实鸠鸟结构，把奇异感主要交给神态与山林环境。",
+  "facts": [
+    { "label": "所居", "value": "青丘之山", "basis": "text" },
+    { "label": "形貌", "value": "其状如鸠", "basis": "text" },
+    { "label": "鸣声", "value": "其音若呵", "basis": "text" },
+    { "label": "传说", "value": "佩之不惑", "basis": "text" }
+  ],
+  "sourceNote": "灌灌见于《南山经》青丘之山。原文只有鸠形与鸣声描述，图像采用斑鸠类体态；具体羽色与姿态是为形成图鉴辨识度所作的艺术推定。",
+  "references": [
+    { "book": "南山经", "text": "有鸟焉，其状如鸠，其音若呵，名曰灌灌，佩之不惑。" }
+  ]
+}

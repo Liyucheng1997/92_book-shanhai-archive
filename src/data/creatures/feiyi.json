@@ -1,0 +1,34 @@
+{
+  "slug": "feiyi",
+  "name": "肥遗",
+  "alias": "太华六足之蛇",
+  "pinyin": "FÉI YÍ",
+  "type": "serpent",
+  "tags": ["旱兆"],
+  "volume": 2,
+  "book": "西山经",
+  "scroll": "卷二",
+  "seq": 10,
+  "plate": "拾叁",
+  "mark": "肥",
+  "location": "太华之山",
+  "region": "西山首经",
+  "mapPos": { "x": 0.1, "y": 0.28 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_feiyi_v01.webp",
+  "imageClass": "",
+  "imageAlt": "肥遗，蛇身六足四翼的太华山旱兆异兽古籍工笔图",
+  "imageTag": "蛇身 · 六足 · 四翼",
+  "quote": "有蛇焉，名曰肥遗，六足四翼，见则天下大旱。",
+  "summary": "太华山险峻削直，鸟兽难以栖居，却有名为肥遗的异蛇出没。它长着六只脚和四片翅膀，出现便预示天下大旱。本条所载为蛇形肥遗，与《西山经》后文同名的鹑形鸟不可混为一物。",
+  "facts": [
+    { "label": "类别", "value": "有蛇焉", "basis": "text" },
+    { "label": "肢体", "value": "六足", "basis": "text" },
+    { "label": "羽翼", "value": "四翼", "basis": "text" },
+    { "label": "灾兆", "value": "见则天下大旱", "basis": "text" }
+  ],
+  "sourceNote": "肥遗见于《西山经》太华之山，部分底本文字作“肥𧔥”。同篇英山另有同名鹑形鸟，本条按蛇身六足四翼的记载单独收录。",
+  "references": [
+    { "book": "西山经", "text": "太华之山，削成而四方……有蛇焉，名曰肥遗，六足四翼，见则天下大旱。" }
+  ]
+}
