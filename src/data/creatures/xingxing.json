@@ -1,0 +1,31 @@
+{
+  "slug": "xingxing",
+  "name": "狌狌",
+  "alias": "南山兽类",
+  "pinyin": "XĪNG XĪNG · SHĒNG SHĒNG",
+  "type": "beast",
+  "tags": ["神能"],
+  "volume": 1,
+  "book": "南山经",
+  "scroll": "卷一",
+  "seq": 1,
+  "plate": "贰",
+  "mark": "狌",
+  "location": "招摇之山",
+  "region": "南山首经",
+  "mapPos": { "x": 0.3, "y": 0.82 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_xingxing_v03.webp",
+  "imageClass": "",
+  "imageAlt": "狌狌，白耳猿猴状异兽的古籍工笔图",
+  "imageTag": "如禺 · 白耳 · 善走",
+  "quote": "有兽焉，其状如禺而白耳，伏行人走，其名曰狌狌。",
+  "summary": "狌狌形如猿猴，双耳洁白，既能伏地行走，也能像人一样奔跑。它出现在《南山经》开篇，是整部《山海经》中极具代表性的早期异兽。",
+  "facts": [
+    { "label": "读音", "value": "xīng xīng / shēng shēng", "basis": "note" },
+    { "label": "形貌", "value": "如禺而白耳", "basis": "text" },
+    { "label": "行动", "value": "伏行 · 人走", "basis": "text" },
+    { "label": "传说", "value": "食之善走", "basis": "text" }
+  ],
+  "sourceNote": "《南山经》从招摇之山写起，狌狌即见于开篇。古注对“禺”的具体所指有不同解释，图像采用猕猴类体态作艺术推定。"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "boyi",
+  "name": "猼訑",
+  "alias": "辟恐惧之兽",
+  "pinyin": "BÓ YÍ",
+  "type": "beast",
+  "tags": ["不畏"],
+  "volume": 1,
+  "book": "南山经",
+  "scroll": "卷一",
+  "seq": 4,
+  "plate": "伍",
+  "mark": "猼",
+  "location": "基山",
+  "region": "南山首经",
+  "mapPos": { "x": 0.7, "y": 0.86 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_boyi_v03.webp",
+  "imageClass": "",
+  "imageAlt": "猼訑，羊形多尾多耳且眼生背部的古籍工笔图",
+  "imageTag": "羊身 · 九尾 · 四耳",
+  "quote": "有兽焉，其状如羊，九尾四耳，其目在背，其名曰猼訑。",
+  "summary": "猼訑形如羊，却有九条尾巴、四只耳朵，双眼生在背部。古人相信佩戴它的皮毛能够使人无所畏惧，因此常被理解为辟除恐惧的异兽。",
+  "facts": [
+    { "label": "形貌", "value": "其状如羊", "basis": "text" },
+    { "label": "异征", "value": "九尾 · 四耳", "basis": "text" },
+    { "label": "双目", "value": "其目在背", "basis": "text" },
+    { "label": "传说", "value": "佩之不畏", "basis": "text" }
+  ],
+  "sourceNote": "猼訑见于《南山经》基山。它的数量特征是辨识核心；本批图像作为首轮视觉稿，具体尾、耳数量仍保留人工审核标记。"
+}

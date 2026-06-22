@@ -1,0 +1,4 @@
+interface:
+  display_name: "山海异兽批量生图"
+  short_description: "用二乘二拼图批量生成、裁切并高清化山海经异兽图鉴图片"
+  default_prompt: "Use $generate-shanhaijing-creatures to generate a 2x2 batch of Shanhaijing creature artwork and finalize the website assets."

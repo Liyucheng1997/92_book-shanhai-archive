@@ -1,0 +1,35 @@
+{
+  "slug": "zhulong",
+  "name": "烛阴",
+  "alias": "又名 烛龙",
+  "pinyin": "ZHÚ YĪN · ZHÚ LÓNG",
+  "type": "deity",
+  "tags": ["司时", "神能"],
+  "volume": 8,
+  "book": "海外北经",
+  "scroll": "卷八",
+  "seq": 1,
+  "plate": "壹",
+  "mark": "燭",
+  "location": "钟山之下",
+  "region": "北方山海",
+  "mapPos": { "x": 0.5, "y": 0.12 },
+  "geoConfidence": "none",
+  "image": "/images/creature_zhulong_v01.png",
+  "imageClass": "",
+  "imageAlt": "烛阴，人面赤色蛇身的古籍工笔异兽图",
+  "imageTag": "人面 · 蛇身 · 赤色",
+  "quote": "钟山之神，名曰烛阴。视为昼，瞑为夜；吹为冬，呼为夏。",
+  "summary": "人面蛇身的上古神祇，以双目开合划分昼夜，以吐纳呼吸更替寒暑。它并非寻常异兽，而是古人对时间与季节秩序的宏大神话想象。",
+  "facts": [
+    { "label": "异名", "value": "烛龙、烛阴", "basis": "text" },
+    { "label": "形貌", "value": "人面蛇身，赤色", "basis": "text" },
+    { "label": "神能", "value": "司昼夜 · 掌寒暑", "basis": "text" },
+    { "label": "所居", "value": "钟山之下", "basis": "text" }
+  ],
+  "sourceNote": "核心形象分别见于《海外北经》与《大荒北经》。不同篇章在名称、居所和细节上略有差异，图鉴保留这些差异。",
+  "references": [
+    { "book": "海外北经", "text": "钟山之神，名曰烛阴。视为昼，瞑为夜；吹为冬，呼为夏……身长千里。其为物，人面，蛇身，赤色，居钟山下。" },
+    { "book": "大荒北经", "text": "西北海之外，赤水之北，有章尾山。有神，人面蛇身而赤……是烛九阴，是谓烛龙。" }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "lushu",
+  "name": "鹿蜀",
+  "alias": "南山兽类",
+  "pinyin": "LÙ SHǓ",
+  "type": "beast",
+  "tags": ["宜子孙"],
+  "volume": 1,
+  "book": "南山经",
+  "scroll": "卷一",
+  "seq": 2,
+  "plate": "叁",
+  "mark": "鹿",
+  "location": "杻阳之山",
+  "region": "南山首经",
+  "mapPos": { "x": 0.45, "y": 0.87 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_lushu_v03.webp",
+  "imageClass": "",
+  "imageAlt": "鹿蜀，白首虎纹赤尾的马形异兽古籍工笔图",
+  "imageTag": "马身 · 白首 · 虎文",
+  "quote": "其状如马而白首，其文如虎而赤尾，其音如谣，其名曰鹿蜀。",
+  "summary": "鹿蜀有马的身形、白色头部、虎一般的斑纹和赤红尾巴，鸣声如歌谣。古人相信佩戴它的皮毛可以使子孙昌盛。",
+  "facts": [
+    { "label": "形貌", "value": "如马而白首", "basis": "text" },
+    { "label": "纹饰", "value": "虎文 · 赤尾", "basis": "text" },
+    { "label": "鸣声", "value": "其音如谣", "basis": "text" },
+    { "label": "传说", "value": "佩之宜子孙", "basis": "text" }
+  ],
+  "sourceNote": "鹿蜀见于《南山经》杻阳之山。图像以马科解剖为基础，只将白首、虎文与赤尾作为原文明示的异质特征。"
+}

@@ -1,0 +1,141 @@
+{
+  "workflow": "Shanhaijing 2x2 Image Pipeline v1",
+  "created_at": "2026-06-22T21:55:01",
+  "project_root": "F:\\我的编程项目\\80_山海经图鉴",
+  "run_root": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260622-beasts-template-v03",
+  "master_board": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260622-beasts-template-v03\\masters\\board.png",
+  "master_board_sha256": "b2eccc621294def0b6cf40c8c6af873a0026563a63dd606b8f5a94803c63fbab",
+  "items_file": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260622-beasts-template-v03\\items.json",
+  "tmp_folder": "C:\\tmp\\shanhaijing_imagegen_20260622-beasts-template-v03",
+  "crop_strategy": "exact_halves_row_major",
+  "master_board_ratio": 0.800285,
+  "realesrgan": {
+    "enabled": true,
+    "executable": "F:\\Real-ESRGAN\\realesrgan-ncnn-vulkan-20210901-windows\\realesrgan-ncnn-vulkan.exe",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "rule": "raw crops go directly to Real-ESRGAN; no pre-upscaling"
+  },
+  "web_output": {
+    "format": "webp",
+    "quality": 88,
+    "size": [
+      1600,
+      2000
+    ]
+  },
+  "outputs": [
+    {
+      "name": "狌狌",
+      "slug": "xingxing",
+      "version": "v03",
+      "row": 1,
+      "col": 1,
+      "coords": [
+        0,
+        0,
+        561,
+        701
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-beasts-template-v03\\raw\\01_xingxing_v03.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-beasts-template-v03\\x4\\01_xingxing_v03.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_xingxing_v03.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "8c17787342d37758849bd9f9526c76fc3ad468065a3f80dd79fd5f011d47f0f2",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    },
+    {
+      "name": "鹿蜀",
+      "slug": "lushu",
+      "version": "v03",
+      "row": 1,
+      "col": 2,
+      "coords": [
+        561,
+        0,
+        1122,
+        701
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-beasts-template-v03\\raw\\02_lushu_v03.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-beasts-template-v03\\x4\\02_lushu_v03.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_lushu_v03.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "474c4e26fa1e65d4cd7cc8ae48f058905d8ef2b5d27582c44faaebb6d2b067e4",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    },
+    {
+      "name": "类",
+      "slug": "lei",
+      "version": "v03",
+      "row": 2,
+      "col": 1,
+      "coords": [
+        0,
+        701,
+        561,
+        1402
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-beasts-template-v03\\raw\\03_lei_v03.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-beasts-template-v03\\x4\\03_lei_v03.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_lei_v03.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "cd03ed040433691f505bb68672b6dc327de0da064451409157daa2e7b5e35049",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    },
+    {
+      "name": "猼訑",
+      "slug": "boyi",
+      "version": "v03",
+      "row": 2,
+      "col": 2,
+      "coords": [
+        561,
+        701,
+        1122,
+        1402
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-beasts-template-v03\\raw\\04_boyi_v03.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-beasts-template-v03\\x4\\04_boyi_v03.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_boyi_v03.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "541d531c1298306b47ae5cedd9aa80394bf5b78feedd681dc78074bc4e5ab3f1",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    }
+  ]
+}

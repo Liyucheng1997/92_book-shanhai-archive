@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "xingxing",
+    "name": "狌狌",
+    "pinyin": "xīng xīng / shēng shēng",
+    "version": "v01",
+    "source": "《山海经·南山经》：有兽焉，其状如禺而白耳，伏行人走，其名曰狌狌。",
+    "artistic_inference": "以猕猴和长臂猿的真实骨骼肌肉补全形体；同时表现伏地行走与直立奔跑的动势。"
+  },
+  {
+    "slug": "lushu",
+    "name": "鹿蜀",
+    "pinyin": "lù shǔ",
+    "version": "v01",
+    "source": "《山海经·南山经》：其状如马而白首，其文如虎而赤尾，其音如谣。",
+    "artistic_inference": "采用山地马体型，虎纹沿躯干自然分布；以风和云气暗示歌谣般鸣声。"
+  },
+  {
+    "slug": "lei",
+    "name": "类",
+    "pinyin": "lèi",
+    "version": "v01",
+    "source": "《山海经·南山经》：有兽焉，其状如狸而有髦，其名曰类，自为牝牡。",
+    "artistic_inference": "以狸猫体态和颈背长毛表现‘有髦’；以中性面容、平衡体态和成对纹样含蓄表达雌雄同体，不显露器官。"
+  },
+  {
+    "slug": "boyi",
+    "name": "猼訑",
+    "pinyin": "bó yí",
+    "version": "v01",
+    "source": "《山海经·南山经》：有兽焉，其状如羊，九尾四耳，其目在背，其名曰猼訑。",
+    "artistic_inference": "采用岩羊体型；严格绘制九条独立长尾、四只清楚可数的耳朵，双眼位于肩胛之间的背部。"
+  }
+]

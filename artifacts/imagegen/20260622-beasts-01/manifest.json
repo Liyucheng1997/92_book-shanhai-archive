@@ -1,0 +1,132 @@
+{
+  "workflow": "Shanhaijing 2x2 Image Pipeline v1",
+  "created_at": "2026-06-22T21:21:24",
+  "project_root": "F:\\我的编程项目\\80_山海经图鉴",
+  "run_root": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260622-beasts-01",
+  "master_board": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260622-beasts-01\\masters\\board.png",
+  "master_board_sha256": "cc8b126b0ad3be1c1107684e28d405a4594638bab358160a945d3f71bbd20cc6",
+  "items_file": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260622-beasts-01\\items.json",
+  "tmp_folder": "C:\\tmp\\shanhaijing_imagegen_20260622-beasts-01",
+  "crop_strategy": "exact_halves_row_major",
+  "realesrgan": {
+    "enabled": true,
+    "executable": "F:\\Real-ESRGAN\\realesrgan-ncnn-vulkan-20210901-windows\\realesrgan-ncnn-vulkan.exe",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "rule": "raw crops go directly to Real-ESRGAN; no pre-upscaling"
+  },
+  "web_output": {
+    "format": "webp",
+    "quality": 88,
+    "size": [
+      1600,
+      2500
+    ]
+  },
+  "outputs": [
+    {
+      "name": "狌狌",
+      "slug": "xingxing",
+      "version": "v01",
+      "row": 1,
+      "col": 1,
+      "coords": [
+        0,
+        0,
+        502,
+        784
+      ],
+      "source_size": [
+        1003,
+        1568
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-beasts-01\\raw\\01_xingxing_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-beasts-01\\x4\\01_xingxing_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_xingxing_v01.webp",
+      "final_size": [
+        1600,
+        2500
+      ],
+      "sha256": "c789b198f4c1db80661486494485eee2b013eba8997624cb0e36bed76ddc814c",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp"
+    },
+    {
+      "name": "鹿蜀",
+      "slug": "lushu",
+      "version": "v01",
+      "row": 1,
+      "col": 2,
+      "coords": [
+        502,
+        0,
+        1003,
+        784
+      ],
+      "source_size": [
+        1003,
+        1568
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-beasts-01\\raw\\02_lushu_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-beasts-01\\x4\\02_lushu_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_lushu_v01.webp",
+      "final_size": [
+        1600,
+        2500
+      ],
+      "sha256": "9500fd76e2ea48a81cbf093d203f055d38c6285b36ce278379413db5985a2754",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp"
+    },
+    {
+      "name": "类",
+      "slug": "lei",
+      "version": "v01",
+      "row": 2,
+      "col": 1,
+      "coords": [
+        0,
+        784,
+        502,
+        1568
+      ],
+      "source_size": [
+        1003,
+        1568
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-beasts-01\\raw\\03_lei_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-beasts-01\\x4\\03_lei_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_lei_v01.webp",
+      "final_size": [
+        1600,
+        2500
+      ],
+      "sha256": "efb7e5697047e98cce16ebd018c8ed6539fdfa2477d25c0588263202886a2350",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp"
+    },
+    {
+      "name": "猼訑",
+      "slug": "boyi",
+      "version": "v01",
+      "row": 2,
+      "col": 2,
+      "coords": [
+        502,
+        784,
+        1003,
+        1568
+      ],
+      "source_size": [
+        1003,
+        1568
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-beasts-01\\raw\\04_boyi_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-beasts-01\\x4\\04_boyi_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_boyi_v01.webp",
+      "final_size": [
+        1600,
+        2500
+      ],
+      "sha256": "008c418fb31628f3c709e39cfad7e34544f60991231dab1ac6c70f18ae3f25c6",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp"
+    }
+  ]
+}

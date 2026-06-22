@@ -1,0 +1,31 @@
+{
+  "slug": "lei",
+  "name": "类",
+  "alias": "南山兽类",
+  "pinyin": "LÈI",
+  "type": "beast",
+  "tags": ["神能"],
+  "volume": 1,
+  "book": "南山经",
+  "scroll": "卷一",
+  "seq": 3,
+  "plate": "肆",
+  "mark": "類",
+  "location": "亶爰之山",
+  "region": "南山首经",
+  "mapPos": { "x": 0.58, "y": 0.82 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_lei_v03.webp",
+  "imageClass": "",
+  "imageAlt": "类，狸形长毛异兽的古籍工笔图",
+  "imageTag": "如狸 · 有髦 · 牝牡",
+  "quote": "有兽焉，其状如狸而有髦，其名曰类，自为牝牡，食者不妒。",
+  "summary": "类形似狸猫，颈背生有长毛，并被记为“自为牝牡”。图像以中性体态与对称纹样含蓄表达这一特征，不增添原文未记载的器官。",
+  "facts": [
+    { "label": "形貌", "value": "如狸而有髦", "basis": "text" },
+    { "label": "性状", "value": "自为牝牡", "basis": "text" },
+    { "label": "传说", "value": "食者不妒", "basis": "text" },
+    { "label": "图像推定", "value": "狸科体态 · 颈背长毛", "basis": "inferred" }
+  ],
+  "sourceNote": "类见于《南山经》亶爰之山。“自为牝牡”的理解存在阐释空间，本图仅作含蓄的视觉转译，不将艺术推定当作定论。"
+}
