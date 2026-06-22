@@ -1,0 +1,34 @@
+{
+  "slug": "jiuweihu",
+  "name": "九尾狐",
+  "alias": "青丘食人之兽",
+  "pinyin": "JIǓ WĚI HÚ",
+  "type": "beast",
+  "tags": ["食人"],
+  "volume": 1,
+  "book": "南山经",
+  "scroll": "卷一",
+  "seq": 5,
+  "plate": "陆",
+  "mark": "狐",
+  "location": "青丘之山",
+  "region": "南山首经",
+  "mapPos": { "x": 0.82, "y": 0.79 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_jiuweihu_v01.webp",
+  "imageClass": "",
+  "imageAlt": "九尾狐，青丘山中生有九条尾巴的食人狐兽古籍工笔图",
+  "imageTag": "狐身 · 九尾 · 食人",
+  "quote": "有兽焉，其状如狐而九尾，其音如婴儿，能食人，食者不蛊。",
+  "summary": "九尾狐栖息于青丘之山，外形如狐，身后生有九条长尾，啼声却像婴儿。原典中的它能够食人，并非后世故事里妩媚祥瑞的狐仙；古人又相信食其肉可以不受蛊毒侵害。",
+  "facts": [
+    { "label": "形貌", "value": "其状如狐而九尾", "basis": "text" },
+    { "label": "鸣声", "value": "其音如婴儿", "basis": "text" },
+    { "label": "性情", "value": "能食人", "basis": "text" },
+    { "label": "传说", "value": "食者不蛊", "basis": "text" }
+  ],
+  "sourceNote": "九尾狐见于《南山经》青丘之山。后世文献逐渐强化其祥瑞或狐仙形象，本条仅依本篇原文呈现食人异兽；图像以真实狐科结构补足原文未述的毛色与体态。",
+  "references": [
+    { "book": "南山经", "text": "青丘之山……有兽焉，其状如狐而九尾，其音如婴儿，能食人，食者不蛊。" }
+  ]
+}

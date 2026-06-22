@@ -1,0 +1,34 @@
+{
+  "slug": "chiru",
+  "name": "赤鱬",
+  "alias": "英水人面之鱼",
+  "pinyin": "CHÌ RÚ",
+  "type": "fish",
+  "tags": [],
+  "volume": 1,
+  "book": "南山经",
+  "scroll": "卷一",
+  "seq": 6,
+  "plate": "柒",
+  "mark": "鱬",
+  "location": "青丘之山 · 英水",
+  "region": "南山首经",
+  "mapPos": { "x": 0.89, "y": 0.9 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_chiru_v01.webp",
+  "imageClass": "",
+  "imageAlt": "赤鱬，英水中鱼身人面的水生异兽古籍工笔图",
+  "imageTag": "鱼身 · 人面 · 英水",
+  "quote": "其中多赤鱬，其状如鱼而人面，其音如鸳鸯，食之不疥。",
+  "summary": "赤鱬生活在青丘山流出的英水之中，具有完整鱼身，却生着一张人面，鸣叫声如同鸳鸯。经文没有说明它通体赤红，名称也不能替代形貌证据；传说食用赤鱬可以使人免受疥病困扰。",
+  "facts": [
+    { "label": "所居", "value": "青丘之山 · 英水", "basis": "text" },
+    { "label": "形貌", "value": "如鱼而人面", "basis": "text" },
+    { "label": "鸣声", "value": "其音如鸳鸯", "basis": "text" },
+    { "label": "传说", "value": "食之不疥", "basis": "text" }
+  ],
+  "sourceNote": "赤鱬见于《南山经》青丘之山英水。原文只明确鱼身人面，未记载体色；图像采用石青、赭石与少量朱砂属于统一画风下的艺术推定，不以名称中的“赤”臆断通体赤红。",
+  "references": [
+    { "book": "南山经", "text": "英水出焉，南流注于即翼之泽。其中多赤鱬，其状如鱼而人面，其音如鸳鸯，食之不疥。" }
+  ]
+}

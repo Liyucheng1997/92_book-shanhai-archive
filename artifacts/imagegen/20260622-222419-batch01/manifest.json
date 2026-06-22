@@ -1,0 +1,141 @@
+{
+  "workflow": "Shanhaijing 2x2 Image Pipeline v1",
+  "created_at": "2026-06-22T22:28:48",
+  "project_root": "F:\\我的编程项目\\80_山海经图鉴",
+  "run_root": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260622-222419-batch01",
+  "master_board": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260622-222419-batch01\\masters\\board.png",
+  "master_board_sha256": "8436022594f2c97b581e878d3a84a32bd078b1d978fc3d5a270cfa7e5c86b04a",
+  "items_file": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260622-222419-batch01\\items.json",
+  "tmp_folder": "C:\\tmp\\shanhaijing_imagegen_20260622-222419-batch01",
+  "crop_strategy": "exact_halves_row_major",
+  "master_board_ratio": 0.800285,
+  "realesrgan": {
+    "enabled": true,
+    "executable": "F:\\Real-ESRGAN\\realesrgan-ncnn-vulkan-20210901-windows\\realesrgan-ncnn-vulkan.exe",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "rule": "raw crops go directly to Real-ESRGAN; no pre-upscaling"
+  },
+  "web_output": {
+    "format": "webp",
+    "quality": 88,
+    "size": [
+      1600,
+      2000
+    ]
+  },
+  "outputs": [
+    {
+      "name": "烛阴",
+      "slug": "zhulong",
+      "version": "v01",
+      "row": 1,
+      "col": 1,
+      "coords": [
+        0,
+        0,
+        561,
+        701
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-222419-batch01\\raw\\01_zhulong_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-222419-batch01\\x4\\01_zhulong_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_zhulong_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "7e587b795ec5ad06df1e5d53da6613a0cd96d42c2de1295bae00e28264c499ad",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    },
+    {
+      "name": "九尾狐",
+      "slug": "jiuweihu",
+      "version": "v01",
+      "row": 1,
+      "col": 2,
+      "coords": [
+        561,
+        0,
+        1122,
+        701
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-222419-batch01\\raw\\02_jiuweihu_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-222419-batch01\\x4\\02_jiuweihu_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_jiuweihu_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "75878e37fbd5c44b15ecea039c004970cac3c8ea9a0b20000d7b75f64543d566",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    },
+    {
+      "name": "赤鱬",
+      "slug": "chiru",
+      "version": "v01",
+      "row": 2,
+      "col": 1,
+      "coords": [
+        0,
+        701,
+        561,
+        1402
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-222419-batch01\\raw\\03_chiru_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-222419-batch01\\x4\\03_chiru_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_chiru_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "a5fa8752e6fcd7f7ce2cdeb4a0c86a26d1894b955c795f6765bab4a3e8e64e7f",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    },
+    {
+      "name": "蛊雕",
+      "slug": "guandiao",
+      "version": "v01",
+      "row": 2,
+      "col": 2,
+      "coords": [
+        561,
+        701,
+        1122,
+        1402
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-222419-batch01\\raw\\04_guandiao_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260622-222419-batch01\\x4\\04_guandiao_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_guandiao_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "d3feb27b2e6c9d5a0c96819f5097202f46c224014843d9155167f686dbe902c2",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    }
+  ]
+}

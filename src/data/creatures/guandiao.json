@@ -1,0 +1,34 @@
+{
+  "slug": "guandiao",
+  "name": "蛊雕",
+  "alias": "鹿吴食人之兽",
+  "pinyin": "GǓ DIĀO",
+  "type": "beast",
+  "tags": ["食人"],
+  "volume": 1,
+  "book": "南山经",
+  "scroll": "卷一",
+  "seq": 7,
+  "plate": "捌",
+  "mark": "蠱",
+  "location": "鹿吴之山 · 泽更之水",
+  "region": "南次二经",
+  "mapPos": { "x": 0.17, "y": 0.9 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_guandiao_v01.webp",
+  "imageClass": "",
+  "imageAlt": "蛊雕，鹿吴山水边额生独角的食人猛禽古籍工笔图",
+  "imageTag": "雕形 · 有角 · 食人",
+  "quote": "水有兽焉，名曰蛊雕，其状如雕而有角，其音如婴儿之音，是食人。",
+  "summary": "蛊雕出没于鹿吴之山流出的泽更之水，形体如雕，却生有角，叫声与婴儿相似，是会捕食人的凶兽。经文称它为水中之兽，图像则以猛禽骨架表现其主要形貌，并让山涧环境提示其栖居之处。",
+  "facts": [
+    { "label": "所居", "value": "泽更之水", "basis": "text" },
+    { "label": "形貌", "value": "其状如雕而有角", "basis": "text" },
+    { "label": "鸣声", "value": "如婴儿之音", "basis": "text" },
+    { "label": "图像推定", "value": "额顶独角 · 猛禽骨架", "basis": "inferred" }
+  ],
+  "sourceNote": "蛊雕见于《南山经》鹿吴之山泽更之水。原文只说“有角”，没有说明数量与位置；图像依生成清单的视觉记忆点，将其推定为额顶独角，其余结构采用雕类猛禽解剖。",
+  "references": [
+    { "book": "南山经", "text": "鹿吴之山……泽更之水出焉，而南流注于滂水。水有兽焉，名曰蛊雕，其状如雕而有角，其音如婴儿之音，是食人。" }
+  ]
+}
