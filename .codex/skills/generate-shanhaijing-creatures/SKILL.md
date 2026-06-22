@@ -17,7 +17,7 @@ description: Generate project-consistent Shanhaijing creature artwork economical
 
 - 风格规范：`docs/IMAGE_STYLE_GUIDE.md`
 - 风格参考：`.codex/skills/generate-shanhaijing-creatures/assets/style-reference.png`
-- 标准比例参考：`public/images/creature_zhulong_v01.png`
+- 标准比例参考：`public/images/creatures/creature_zhulong_v01.webp`
 - 强制母板模板：`.codex/skills/generate-shanhaijing-creatures/assets/board-template-4x5.png`
 - 批次记录：`artifacts/imagegen/<batch-id>/`
 - 网站图片：`public/images/creatures/`
@@ -55,7 +55,7 @@ artifacts/imagegen/<YYYYMMDD-HHMMSS>-<short-name>/
 
 ### 2. 生成严格 2×2 母板
 
-使用内置 `image_gen`，每块母板只调用一次。必须把 `board-template-4x5.png` 作为编辑底板，把风格图片标记为风格参考。要求模型保持底板的 4:5 画布、外框、中线和四格比例，只在四格内部绘画。允许 Image Gen 对整张底板做等比例像素重采样，但不得改变 4:5 比例或中线位置。不得只靠文字描述或普通比例参考生成空白母板。首次生成完成后立即停止生图，不得由执行者自行重生成整板。
+使用内置 `image_gen`，每块母板只调用一次。必须把 `board-template-4x5.png` 作为编辑底板，把风格图片标记为风格参考。要求模型保持底板的 4:5 画布、单线墨绿外框、单线墨绿中心十字和四格比例，只在四格内部绘画。每格允许生成一层向内缩进的描金回纹细框和装饰角，但金色装饰不得接触或覆盖中心十字，不得形成金色分割线或多重套框。允许 Image Gen 对整张底板做等比例像素重采样，但不得改变 4:5 比例或中线位置。不得只靠文字描述或普通比例参考生成空白母板。首次生成完成后立即停止生图，不得由执行者自行重生成整板。
 
 生成前递归记录 `C:\Users\liyuc\.codex\generated_images\` 的已有 PNG 及时间。生成后立即识别本次唯一新增文件，复制到当前批次的 `masters/board.png`。不要在多个生成任务完成后通过“最新图片”猜测文件。
 
@@ -63,7 +63,7 @@ artifacts/imagegen/<YYYYMMDD-HHMMSS>-<short-name>/
 
 - 整张画布必须与烛龙主图完全相同，为竖版 4:5；严格 2 列 × 2 行。生成提示词中写明 `exact portrait 4:5 canvas, same aspect ratio as the Zhulong reference, not 2:3 and not 5:8`。
 - 四个面板尺寸完全相等，分界线恰好位于宽、高的 1/2。
-- 使用细而均匀的旧纸色分隔线；不合并、不重叠、不做自由拼贴。
+- 外框和中心十字分隔线只使用细而均匀的墨绿色单线；每格内部允许一层向内缩进的描金回纹细框和装饰角，但不得出现描金中心分割线、双线或多重套框。
 - 每个面板自身也是 4:5，主体和边框完整。
 - 所有重要内容距离面板边缘至少 8%；不得跨越中线。
 - 四格不生成文字、数字、印章、标签、水印或 UI。
