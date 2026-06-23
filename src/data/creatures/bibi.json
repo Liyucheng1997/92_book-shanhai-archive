@@ -1,0 +1,34 @@
+{
+  "slug": "bibi",
+  "name": "獙獙",
+  "alias": "鸿雁声旱兆翼狐",
+  "pinyin": "BÌ BÌ",
+  "type": "beast",
+  "tags": ["旱兆"],
+  "volume": 4,
+  "book": "东山经",
+  "scroll": "卷四",
+  "seq": 30,
+  "plate": "叁拾伍",
+  "mark": "獙",
+  "location": "姑逢之山",
+  "region": "东次二经",
+  "mapPos": { "x": 0.78, "y": 0.5 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_bibi_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "獙獙，狐身生有羽翼、在龟裂旱地仰首鸣叫的东山异兽古籍工笔图",
+  "imageTag": "狐身 · 羽翼 · 鸿雁声旱兆",
+  "quote": "有兽焉，其状如狐而有翼，其音如鸿雁，其名曰獙獙，见则天下大旱。",
+  "summary": "獙獙出自无草木而多金玉的姑逢之山，形如狐狸，却生有一对鸟翼，叫声类似鸿雁。它一旦现身，天下便会遭遇大旱。画面以龟裂土地和枯槁草木表现灾兆，不使用火焰或法术特效。",
+  "facts": [
+    { "label": "形貌", "value": "其状如狐而有翼", "basis": "text" },
+    { "label": "鸣声", "value": "其音如鸿雁", "basis": "text" },
+    { "label": "所居", "value": "姑逢之山", "basis": "text" },
+    { "label": "灾兆", "value": "见则天下大旱", "basis": "text" }
+  ],
+  "sourceNote": "獙獙见于《东山经》姑逢之山。原文只说“有翼”，与朱獳的“鱼翼”相区别；图像据鸿雁鸣声采用大型羽翼，并以狐科四足结构承载，翼色与展翼姿态属于艺术推定。",
+  "references": [
+    { "book": "东山经", "text": "又南三百里，曰姑逢之山，无草木，多金玉。有兽焉，其状如狐而有翼，其音如鸿雁，其名曰獙獙，见则天下大旱。" }
+  ]
+}

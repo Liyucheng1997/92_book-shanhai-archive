@@ -1,0 +1,34 @@
+{
+  "slug": "mafu",
+  "name": "马腹",
+  "alias": "蔓渠人面食人虎",
+  "pinyin": "MǍ FÙ",
+  "type": "beast",
+  "tags": ["食人"],
+  "volume": 5,
+  "book": "中山经",
+  "scroll": "卷五",
+  "seq": 20,
+  "plate": "肆拾肆",
+  "mark": "馬",
+  "location": "蔓渠之山",
+  "region": "中次二经",
+  "mapPos": { "x": 0.54, "y": 0.58 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_mafu_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "马腹，人面虎身、行于蔓渠山竹林中的食人异兽古籍工笔图",
+  "imageTag": "人面 · 虎身 · 婴儿声食人",
+  "quote": "有兽焉，其名曰马腹，其状如人面虎身，其音如婴儿，是食人。",
+  "summary": "马腹出没在盛产金玉与竹箭的蔓渠之山，形体为虎，却长着人的面孔，鸣声像婴儿啼哭，并会捕食人。它没有灾兆或复杂神能，全部威胁感都来自人面虎身与婴儿声之间强烈的不协调。",
+  "facts": [
+    { "label": "形貌", "value": "人面虎身", "basis": "text" },
+    { "label": "鸣声", "value": "其音如婴儿", "basis": "text" },
+    { "label": "习性", "value": "是食人", "basis": "text" },
+    { "label": "所居", "value": "蔓渠之山", "basis": "text" }
+  ],
+  "sourceNote": "马腹见于《中山经·中次二经》蔓渠之山。原文仅限定人面、虎身、婴儿声与食人；图像采用真实虎科躯体，将人面与虎颈自然连接，面容、虎纹和姿态属于艺术推定。",
+  "references": [
+    { "book": "中山经", "text": "又西二百里，曰蔓渠之山，其上多金玉，其下多竹箭。伊水出焉，而东流注于洛。有兽焉，其名曰马腹，其状如人面虎身，其音如婴儿，是食人。" }
+  ]
+}

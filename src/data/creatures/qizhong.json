@@ -1,0 +1,34 @@
+{
+  "slug": "qizhong",
+  "name": "跂踵",
+  "alias": "一足彘尾疫鸟",
+  "pinyin": "QÍ ZHǑNG",
+  "type": "bird",
+  "tags": ["疫兆"],
+  "volume": 5,
+  "book": "中山经",
+  "scroll": "卷五",
+  "seq": 100,
+  "plate": "肆拾捌",
+  "mark": "跂",
+  "location": "复州之山",
+  "region": "中次十一经",
+  "mapPos": { "x": 0.42, "y": 0.7 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_qizhong_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "跂踵，鸮形独足并生猪尾、立于寂静复州山林的疫兆怪鸟古籍工笔图",
+  "imageTag": "鸮形 · 一足彘尾 · 大疫之兆",
+  "quote": "有鸟焉，其状如鸮，而一足彘尾，其名曰跂踵，见则其国大疫。",
+  "summary": "跂踵生活在复州之山，主体形如鸮，却只有一只足，并拖着猪一样的尾巴。它不以食人或攻击见长，但一旦出现，所在国家便会发生大疫。独足与彘尾构成它最直接的身体异征。",
+  "facts": [
+    { "label": "形貌", "value": "其状如鸮", "basis": "text" },
+    { "label": "异征", "value": "一足 · 彘尾", "basis": "text" },
+    { "label": "所居", "value": "复州之山", "basis": "text" },
+    { "label": "灾兆", "value": "见则其国大疫", "basis": "text" }
+  ],
+  "sourceNote": "跂踵见于《中山经》复州之山。原文明示鸮形、一足与彘尾，图像以猫头鹰骨架为主体，将单足置于身体中轴并自然连接猪尾；羽色、体量与栖立姿态属于艺术推定。",
+  "references": [
+    { "book": "中山经", "text": "又西二十里，曰复州之山，其木多檀，其阳多黄金。有鸟焉，其状如鸮，而一足彘尾，其名曰跂踵，见则其国大疫。" }
+  ]
+}

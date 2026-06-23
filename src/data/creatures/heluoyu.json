@@ -1,0 +1,34 @@
+{
+  "slug": "heluoyu",
+  "name": "何罗鱼",
+  "alias": "谯水一首十身之鱼",
+  "pinyin": "HÉ LUÓ YÚ",
+  "type": "fish",
+  "tags": [],
+  "volume": 3,
+  "book": "北山经",
+  "scroll": "卷三",
+  "seq": 10,
+  "plate": "贰拾伍",
+  "mark": "何",
+  "location": "谯明之山 · 谯水",
+  "region": "北山首经",
+  "mapPos": { "x": 0.38, "y": 0.16 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_heluoyu_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "何罗鱼，谯水中只有一首却分生十条鱼身的古籍工笔图",
+  "imageTag": "一首 · 十身 · 如犬鸣",
+  "quote": "其中多何罗之鱼，一首而十身，其音如吠犬，食之已痈。",
+  "summary": "何罗鱼生活在谯明山流出的谯水中，最奇特之处是只有一颗头，却同时分生十条身体，叫声还像犬吠。古人认为食用它可以消除痈肿，是《北山经》中结构最怪异的水族之一。",
+  "facts": [
+    { "label": "所居", "value": "谯明之山 · 谯水", "basis": "text" },
+    { "label": "异征", "value": "一首而十身", "basis": "text" },
+    { "label": "鸣声", "value": "其音如吠犬", "basis": "text" },
+    { "label": "传说", "value": "食之已痈", "basis": "text" }
+  ],
+  "sourceNote": "何罗鱼见于《北山经》谯明之山。原文只说明“一首而十身”，未解释十身如何连接；图像将十条鱼躯从唯一头部后方扇形分生，属于对古籍结构的艺术推定。",
+  "references": [
+    { "book": "北山经", "text": "又北四百里，曰谯明之山，谯水出焉，西流注于河。其中多何罗之鱼，一首而十身，其音如吠犬，食之已痈。" }
+  ]
+}

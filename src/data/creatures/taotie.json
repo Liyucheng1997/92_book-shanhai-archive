@@ -1,0 +1,34 @@
+{
+  "slug": "taotie",
+  "name": "饕餮",
+  "alias": "又名 狍鸮",
+  "pinyin": "TĀO TIÈ · PÁO XIĀO",
+  "type": "beast",
+  "tags": ["食人"],
+  "volume": 3,
+  "book": "北山经",
+  "scroll": "卷三",
+  "seq": 80,
+  "plate": "伍拾柒",
+  "mark": "饕",
+  "location": "钩吾之山",
+  "region": "北次二经",
+  "mapPos": { "x": 0.36, "y": 0.14 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_taotie_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "饕餮狍鸮，羊身人面、目在腋下且虎齿人爪的食人异兽工笔图",
+  "imageTag": "羊身人面 · 目在腋下 · 食人",
+  "quote": "有兽焉，其状如羊身人面，其目在腋下，虎齿人爪，其音如婴儿，名曰狍鸮，是食人。",
+  "summary": "狍鸮常被视作饕餮形象的重要源头。它有羊的身体和人的面孔，眼睛长在腋下，又有虎齿与人爪，声音像婴儿，带有强烈的食人怪兽气质。",
+  "facts": [
+    { "label": "形貌", "value": "羊身人面", "basis": "text" },
+    { "label": "异征", "value": "目在腋下", "basis": "text" },
+    { "label": "爪齿", "value": "虎齿人爪", "basis": "text" },
+    { "label": "习性", "value": "是食人", "basis": "text" }
+  ],
+  "sourceNote": "《北山经》原名为狍鸮，后世常与饕餮相连。本条以狍鸮原文为造型依据，不采用纯青铜纹样化的饕餮面。",
+  "references": [
+    { "book": "北山经", "text": "有兽焉，其状如羊身人面，其目在腋下，虎齿人爪，其音如婴儿，名曰狍鸮，是食人。" }
+  ]
+}

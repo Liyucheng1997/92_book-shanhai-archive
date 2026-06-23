@@ -1,0 +1,141 @@
+{
+  "workflow": "Shanhaijing 2x2 Image Pipeline v1",
+  "created_at": "2026-06-23T10:42:20",
+  "project_root": "F:\\我的编程项目\\80_山海经图鉴",
+  "run_root": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260623-103407-batch13",
+  "master_board": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260623-103407-batch13\\masters\\board.png",
+  "master_board_sha256": "bb0470f8dda8e2964b6512fdea87abae5394620aaf178fbe9f658f7f6cd2a670",
+  "items_file": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260623-103407-batch13\\items.json",
+  "tmp_folder": "C:\\tmp\\shanhaijing_imagegen_20260623-103407-batch13",
+  "crop_strategy": "exact_halves_row_major",
+  "master_board_ratio": 0.800285,
+  "realesrgan": {
+    "enabled": true,
+    "executable": "F:\\Real-ESRGAN\\realesrgan-ncnn-vulkan-20210901-windows\\realesrgan-ncnn-vulkan.exe",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "rule": "raw crops go directly to Real-ESRGAN; no pre-upscaling"
+  },
+  "web_output": {
+    "format": "webp",
+    "quality": 88,
+    "size": [
+      1600,
+      2000
+    ]
+  },
+  "outputs": [
+    {
+      "name": "句芒",
+      "slug": "goumang",
+      "version": "v01",
+      "row": 1,
+      "col": 1,
+      "coords": [
+        0,
+        0,
+        561,
+        701
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-103407-batch13\\raw\\01_goumang_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-103407-batch13\\x4\\01_goumang_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_goumang_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "18a1c64c516a23bb69eb5de8ab245e8fe0d498afed4f066d9042f151f09ee040",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    },
+    {
+      "name": "蓐收",
+      "slug": "rushou",
+      "version": "v01",
+      "row": 1,
+      "col": 2,
+      "coords": [
+        561,
+        0,
+        1122,
+        701
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-103407-batch13\\raw\\02_rushou_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-103407-batch13\\x4\\02_rushou_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_rushou_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "b34f4b53b83ebafdc5d69dc31822bcbf373e21e06f55189b9d4885fabca59001",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    },
+    {
+      "name": "帝江",
+      "slug": "dijiang",
+      "version": "v01",
+      "row": 2,
+      "col": 1,
+      "coords": [
+        0,
+        701,
+        561,
+        1402
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-103407-batch13\\raw\\03_dijiang_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-103407-batch13\\x4\\03_dijiang_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_dijiang_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "d63f7e60221ec45e3a89b0c32e9a16afb671b09f35b60603b98d786489106a3b",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    },
+    {
+      "name": "夔",
+      "slug": "kui",
+      "version": "v01",
+      "row": 2,
+      "col": 2,
+      "coords": [
+        561,
+        701,
+        1122,
+        1402
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-103407-batch13\\raw\\04_kui_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-103407-batch13\\x4\\04_kui_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_kui_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "1b65b6cc82d6ae31230b2e86bb202d39589bb03abed8ca2307beec33dc2d61e9",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    }
+  ]
+}

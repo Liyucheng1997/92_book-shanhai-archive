@@ -1,0 +1,34 @@
+{
+  "slug": "kaimingshou",
+  "name": "开明兽",
+  "alias": "昆仑九首门神",
+  "pinyin": "KĀI MÍNG SHÒU",
+  "type": "beast",
+  "tags": ["神能"],
+  "volume": 11,
+  "book": "海内西经",
+  "scroll": "卷十一",
+  "seq": 10,
+  "plate": "陆拾",
+  "mark": "开",
+  "location": "昆仑之上",
+  "region": "海内西方",
+  "mapPos": { "x": 0.18, "y": 0.34 },
+  "geoConfidence": "none",
+  "image": "/images/creatures/creature_kaimingshou_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "开明兽，虎身九首且皆为人面的昆仑守门神兽古籍工笔图",
+  "imageTag": "虎身 · 九首人面 · 昆仑",
+  "quote": "开明兽身大类虎而九首，皆人面，东向立昆仑上。",
+  "summary": "开明兽立于昆仑之上，身体巨大如虎，却有九个头，而且每个头都是人面。它东向而立，像守卫昆仑神域的门神，在山海世界中具有鲜明的边界守护意味。",
+  "facts": [
+    { "label": "形貌", "value": "身大类虎", "basis": "text" },
+    { "label": "异征", "value": "九首，皆人面", "basis": "text" },
+    { "label": "姿态", "value": "东向立", "basis": "text" },
+    { "label": "所居", "value": "昆仑上", "basis": "text" }
+  ],
+  "sourceNote": "开明兽见于《海内西经》。图像以虎身、九首人面和昆仑守卫姿态为核心；山门、体色和头部排列为艺术推定。",
+  "references": [
+    { "book": "海内西经", "text": "开明兽身大类虎而九首，皆人面，东向立昆仑上。" }
+  ]
+}

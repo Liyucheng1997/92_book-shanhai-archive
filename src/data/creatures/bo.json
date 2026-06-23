@@ -1,0 +1,34 @@
+{
+  "slug": "bo",
+  "name": "駮",
+  "alias": "中曲御兵之兽",
+  "pinyin": "BÓ",
+  "type": "beast",
+  "tags": [],
+  "volume": 2,
+  "book": "西山经",
+  "scroll": "卷二",
+  "seq": 44,
+  "plate": "贰拾柒",
+  "mark": "駮",
+  "location": "中曲之山",
+  "region": "西次三经",
+  "mapPos": { "x": 0.34, "y": 0.5 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_bo_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "駮，白色马身黑尾、独角虎牙虎爪的食虎豹异兽古籍工笔图",
+  "imageTag": "白马 · 独角 · 虎牙爪",
+  "quote": "有兽焉，其状如马而白身黑尾，一角，虎牙爪，音如鼓音，其名曰駮，是食虎豹，可以御兵。",
+  "summary": "駮栖息于《西山经》的中曲山，形如白马，生黑尾与独角，牙齿和四爪却像猛虎，吼声如鼓。它以虎豹为食，古人又相信其形象可以抵御兵灾，远比后世温顺的独角兽凶猛。",
+  "facts": [
+    { "label": "形貌", "value": "如马 · 白身黑尾 · 一角", "basis": "text" },
+    { "label": "异征", "value": "虎牙爪", "basis": "text" },
+    { "label": "习性", "value": "是食虎豹", "basis": "text" },
+    { "label": "传说", "value": "可以御兵", "basis": "text" }
+  ],
+  "sourceNote": "駮实际见于《西山经》中曲之山，原生成清单误列为《北山经》，本条已据原文纠正卷序。图像采用马科骨架，以虎牙和虎爪替代普通牙齿与马蹄。",
+  "references": [
+    { "book": "西山经", "text": "又西三百里，曰中曲之山……有兽焉，其状如马而白身黑尾，一角，虎牙爪，音如鼓音，其名曰駮，是食虎豹，可以御兵。" }
+  ]
+}

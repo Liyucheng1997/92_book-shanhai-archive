@@ -1,0 +1,34 @@
+{
+  "slug": "qinyuan",
+  "name": "钦原",
+  "alias": "昆仑剧毒之鸟",
+  "pinyin": "QĪN YUÁN",
+  "type": "bird",
+  "tags": ["毒"],
+  "volume": 2,
+  "book": "西山经",
+  "scroll": "卷二",
+  "seq": 62,
+  "plate": "贰拾贰",
+  "mark": "欽",
+  "location": "昆仑之丘",
+  "region": "西次三经",
+  "mapPos": { "x": 0.12, "y": 0.34 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_qinyuan_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "钦原，形如巨蜂、停于枯木上的昆仑剧毒异鸟古籍工笔图",
+  "imageTag": "蜂形 · 大如鸳鸯 · 剧毒",
+  "quote": "有鸟焉，其状如蜂，大如鸳鸯，名曰钦原，蠚鸟兽则死，蠚木则枯。",
+  "summary": "钦原被经文归为鸟类，形态却像蜂，体型大如鸳鸯。它的毒刺极其猛烈，蜇中鸟兽便会致死，刺中树木则使其枯萎。图像保留这种鸟与虫分类交叠的怪异感，以枯叶表现其毒性。",
+  "facts": [
+    { "label": "类别", "value": "有鸟焉", "basis": "text" },
+    { "label": "形貌", "value": "其状如蜂", "basis": "text" },
+    { "label": "尺度", "value": "大如鸳鸯", "basis": "text" },
+    { "label": "毒性", "value": "蠚鸟兽则死 · 蠚木则枯", "basis": "text" }
+  ],
+  "sourceNote": "钦原见于《西山经》昆仑之丘。原文称其为鸟而又说形如蜂，图像以大型膜翅昆虫结构表现主体，不强行消解古籍分类；体色和具体蜂种属于艺术推定。",
+  "references": [
+    { "book": "西山经", "text": "有鸟焉，其状如蜂，大如鸳鸯，名曰钦原，蠚鸟兽则死，蠚木则枯。" }
+  ]
+}

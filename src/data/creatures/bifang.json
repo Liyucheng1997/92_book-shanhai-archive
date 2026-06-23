@@ -1,0 +1,34 @@
+{
+  "slug": "bifang",
+  "name": "毕方",
+  "alias": "一足火兆之鸟",
+  "pinyin": "BÌ FĀNG",
+  "type": "bird",
+  "tags": ["火兆"],
+  "volume": 2,
+  "book": "西山经",
+  "scroll": "卷二",
+  "seq": 100,
+  "plate": "伍拾玖",
+  "mark": "毕",
+  "location": "章莪之山",
+  "region": "西次三经",
+  "mapPos": { "x": 0.28, "y": 0.7 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_bifang_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "毕方，一足鹤形、青质赤文白喙的火兆怪鸟古籍工笔图",
+  "imageTag": "鹤形 · 一足 · 火兆",
+  "quote": "有鸟焉，其状如鹤，一足，赤文青质而白喙，名曰毕方，其鸣自叫也，见则其邑有讹火。",
+  "summary": "毕方生于章莪之山，形状像鹤，却只有一只足，青色身体上有赤色纹理，白喙醒目。它的出现预示城邑将有怪火，是《山海经》中最经典的火兆怪鸟。",
+  "facts": [
+    { "label": "形貌", "value": "其状如鹤", "basis": "text" },
+    { "label": "异征", "value": "一足", "basis": "text" },
+    { "label": "色彩", "value": "赤文青质而白喙", "basis": "text" },
+    { "label": "灾兆", "value": "见则其邑有讹火", "basis": "text" }
+  ],
+  "sourceNote": "毕方见于《西山经》章莪之山。图像以鹤形、一足、青质赤文和白喙为核心；火光背景用于表现讹火之兆。",
+  "references": [
+    { "book": "西山经", "text": "有鸟焉，其状如鹤，一足，赤文青质而白喙，名曰毕方，其鸣自叫也，见则其邑有讹火。" }
+  ]
+}

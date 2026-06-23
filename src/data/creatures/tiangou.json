@@ -1,0 +1,34 @@
+{
+  "slug": "tiangou",
+  "name": "天狗",
+  "alias": "阴山御凶之兽",
+  "pinyin": "TIĀN GǑU",
+  "type": "beast",
+  "tags": ["御凶"],
+  "volume": 2,
+  "book": "西山经",
+  "scroll": "卷二",
+  "seq": 80,
+  "plate": "贰拾肆",
+  "mark": "天",
+  "location": "阴山 · 浊浴之水",
+  "region": "西次三经",
+  "mapPos": { "x": 0.3, "y": 0.84 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_tiangou_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "天狗，阴山水边狸形白首、能够御凶的异兽古籍工笔图",
+  "imageTag": "狸形 · 白首 · 御凶",
+  "quote": "有兽焉，其状如狸而白首，名曰天狗，其音如榴榴，可以御凶。",
+  "summary": "《西山经》的天狗并非后世吞食日月的天象怪物，也不是神将身边的巨犬。它栖息于阴山，形如狸而头部洁白，鸣声榴榴，具有抵御凶邪的能力，是形貌朴素而功能明确的守护异兽。",
+  "facts": [
+    { "label": "所居", "value": "阴山", "basis": "text" },
+    { "label": "形貌", "value": "其状如狸而白首", "basis": "text" },
+    { "label": "鸣声", "value": "其音如榴榴", "basis": "text" },
+    { "label": "传说", "value": "可以御凶", "basis": "text" }
+  ],
+  "sourceNote": "天狗见于《西山经》阴山段。本条仅依原文呈现狸形白首的御凶兽，不混入后世天狗食日、啸天犬等形象；具体狸类体态与毛色分布属于艺术推定。",
+  "references": [
+    { "book": "西山经", "text": "又西三百里，曰阴山，浊浴之水出焉，而南流注于蕃泽，其中多文贝。有兽焉，其状如狸而白首，名曰天狗，其音如榴榴，可以御凶。" }
+  ]
+}

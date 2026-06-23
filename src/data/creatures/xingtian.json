@@ -1,0 +1,34 @@
+{
+  "slug": "xingtian",
+  "name": "刑天",
+  "alias": "无首操干戚之神",
+  "pinyin": "XÍNG TIĀN",
+  "type": "figure",
+  "tags": ["神能"],
+  "volume": 7,
+  "book": "海外西经",
+  "scroll": "卷七",
+  "seq": 10,
+  "plate": "肆拾玖",
+  "mark": "刑",
+  "location": "常羊之山",
+  "region": "海外西方",
+  "mapPos": { "x": 0.12, "y": 0.42 },
+  "geoConfidence": "none",
+  "image": "/images/creatures/creature_xingtian_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "刑天，无首而以乳为目、以脐为口，手执干戚起舞的古籍工笔图",
+  "imageTag": "无首 · 乳目脐口 · 操干戚",
+  "quote": "刑天与帝争神，帝断其首，葬之常羊之山。乃以乳为目，以脐为口，操干戚以舞。",
+  "summary": "刑天与天帝争夺神位，被断首后仍不屈服。他以双乳为眼，以肚脐为口，手持盾与斧继续起舞，是《山海经》中最具悲壮气质的反抗神话之一。",
+  "facts": [
+    { "label": "遭遇", "value": "帝断其首", "basis": "text" },
+    { "label": "形貌", "value": "以乳为目，以脐为口", "basis": "text" },
+    { "label": "动作", "value": "操干戚以舞", "basis": "text" },
+    { "label": "所葬", "value": "常羊之山", "basis": "text" }
+  ],
+  "sourceNote": "刑天见于《海外西经》。图像依原文呈现无首、乳目、脐口与干戚，不表现血腥断首场面；衣饰和体格为艺术推定。",
+  "references": [
+    { "book": "海外西经", "text": "刑天与帝争神，帝断其首，葬之常羊之山。乃以乳为目，以脐为口，操干戚以舞。" }
+  ]
+}

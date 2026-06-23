@@ -1,0 +1,34 @@
+{
+  "slug": "zhuru",
+  "name": "朱獳",
+  "alias": "鱼翼示恐之狐",
+  "pinyin": "ZHŪ RÚ",
+  "type": "beast",
+  "tags": [],
+  "volume": 4,
+  "book": "东山经",
+  "scroll": "卷四",
+  "seq": 20,
+  "plate": "叁拾肆",
+  "mark": "朱",
+  "location": "耿山",
+  "region": "东次二经",
+  "mapPos": { "x": 0.89, "y": 0.42 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_zhuru_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "朱獳，狐身生有鱼鳍状双翼、立于耿山水碧之间的古籍工笔图",
+  "imageTag": "狐身 · 鱼翼 · 见则国恐",
+  "quote": "有兽焉，其状如狐而鱼翼，其名曰朱獳，其鸣自訆，见则其国有恐。",
+  "summary": "朱獳栖息在无草木、多水碧与大蛇的耿山，主体像狐，身上却生有鱼鳍般的翼。它的叫声仿佛呼唤自己的名字，出现时会令一国陷入恐惧。鱼翼而非鸟翼，是它与同篇獙獙最重要的区别。",
+  "facts": [
+    { "label": "形貌", "value": "其状如狐", "basis": "text" },
+    { "label": "异征", "value": "身生鱼翼", "basis": "text" },
+    { "label": "鸣声", "value": "其鸣自訆", "basis": "text" },
+    { "label": "征兆", "value": "见则其国有恐", "basis": "text" }
+  ],
+  "sourceNote": "朱獳见于《东山经》耿山。“鱼翼”按鱼鳍或鳍状翼解释，不画成羽翼；图像以狐科骨架为主体，让成对鳍膜从肩胛与躯干自然生长，具体毛色和鳍纹属于艺术推定。",
+  "references": [
+    { "book": "东山经", "text": "又南三百里，曰耿山，无草木，多水碧，多大蛇。有兽焉，其状如狐而鱼翼，其名曰朱獳，其鸣自訆，见则其国有恐。" }
+  ]
+}

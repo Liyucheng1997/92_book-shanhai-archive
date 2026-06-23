@@ -1,0 +1,141 @@
+{
+  "workflow": "Shanhaijing 2x2 Image Pipeline v1",
+  "created_at": "2026-06-23T10:48:06",
+  "project_root": "F:\\我的编程项目\\80_山海经图鉴",
+  "run_root": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260623-103407-batch14",
+  "master_board": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260623-103407-batch14\\masters\\board.png",
+  "master_board_sha256": "fe440380b08aea97bf17caec81b6261ec5fa365bf565ac7fa2c8784893c9d080",
+  "items_file": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260623-103407-batch14\\items.json",
+  "tmp_folder": "C:\\tmp\\shanhaijing_imagegen_20260623-103407-batch14",
+  "crop_strategy": "exact_halves_row_major",
+  "master_board_ratio": 0.799002,
+  "realesrgan": {
+    "enabled": true,
+    "executable": "F:\\Real-ESRGAN\\realesrgan-ncnn-vulkan-20210901-windows\\realesrgan-ncnn-vulkan.exe",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "rule": "raw crops go directly to Real-ESRGAN; no pre-upscaling"
+  },
+  "web_output": {
+    "format": "webp",
+    "quality": 88,
+    "size": [
+      1600,
+      2000
+    ]
+  },
+  "outputs": [
+    {
+      "name": "饕餮",
+      "slug": "taotie",
+      "version": "v01",
+      "row": 1,
+      "col": 1,
+      "coords": [
+        0,
+        0,
+        560,
+        702
+      ],
+      "source_size": [
+        1121,
+        1403
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-103407-batch14\\raw\\01_taotie_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-103407-batch14\\x4\\01_taotie_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_taotie_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "e7786ab177b686902cb1e9c5549f1a3a446b3457d5ed165afbbc4f67add6ec60",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.797721
+    },
+    {
+      "name": "穷奇",
+      "slug": "qiongqi",
+      "version": "v01",
+      "row": 1,
+      "col": 2,
+      "coords": [
+        560,
+        0,
+        1121,
+        702
+      ],
+      "source_size": [
+        1121,
+        1403
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-103407-batch14\\raw\\02_qiongqi_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-103407-batch14\\x4\\02_qiongqi_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_qiongqi_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "7f50295779fbf7a310c5658c0e854c9bd56413e6f260746edc3f285a1f0ebed3",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.799145
+    },
+    {
+      "name": "毕方",
+      "slug": "bifang",
+      "version": "v01",
+      "row": 2,
+      "col": 1,
+      "coords": [
+        0,
+        702,
+        560,
+        1403
+      ],
+      "source_size": [
+        1121,
+        1403
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-103407-batch14\\raw\\03_bifang_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-103407-batch14\\x4\\03_bifang_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_bifang_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "61fcc0f292c84b4c6a162b3ad4d71b23f40b506f89699c3c855d156125e7c2bd",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.798859
+    },
+    {
+      "name": "开明兽",
+      "slug": "kaimingshou",
+      "version": "v01",
+      "row": 2,
+      "col": 2,
+      "coords": [
+        560,
+        702,
+        1121,
+        1403
+      ],
+      "source_size": [
+        1121,
+        1403
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-103407-batch14\\raw\\04_kaimingshou_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-103407-batch14\\x4\\04_kaimingshou_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_kaimingshou_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "78cc2c82c8f729833808092495338d18c98d994a85f74cfcda7e7c7cf3ffef62",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    }
+  ]
+}

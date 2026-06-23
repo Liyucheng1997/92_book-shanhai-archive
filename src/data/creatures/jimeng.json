@@ -1,0 +1,34 @@
+{
+  "slug": "jimeng",
+  "name": "计蒙",
+  "alias": "漳渊风雨之神",
+  "pinyin": "JÌ MÉNG",
+  "type": "deity",
+  "tags": ["神能"],
+  "volume": 5,
+  "book": "中山经",
+  "scroll": "卷五",
+  "seq": 80,
+  "plate": "肆拾贰",
+  "mark": "計",
+  "location": "光山 · 漳渊",
+  "region": "中次八经",
+  "mapPos": { "x": 0.58, "y": 0.38 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_jimeng_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "计蒙，人身龙首的风雨神立于漳渊暴雨中的古籍工笔图",
+  "imageTag": "人身龙首 · 恒游漳渊 · 飘风暴雨",
+  "quote": "神计蒙处之，其状人身而龙首，恒游于漳渊，出入必有飘风暴雨。",
+  "summary": "计蒙居于光山，形貌为人的身体和龙的头，常在漳水深渊中游行。每当它出入水域，必然伴随疾风和暴雨。原文将它直接称为神，是《中山经》中人格化程度鲜明的自然风雨神祇。",
+  "facts": [
+    { "label": "神名", "value": "计蒙", "basis": "text" },
+    { "label": "形貌", "value": "人身而龙首", "basis": "text" },
+    { "label": "所游", "value": "恒游于漳渊", "basis": "text" },
+    { "label": "神能", "value": "出入必有飘风暴雨", "basis": "text" }
+  ],
+  "sourceNote": "计蒙见于《中山经·中次八经》光山。原文明示人身龙首，没有鸟爪、羽臂或兵器；图像仅以龙首、人身和漳渊风雨构成主体，衣饰、龙首细节与姿态属于艺术推定。",
+  "references": [
+    { "book": "中山经", "text": "又东百三十里，曰光山，其上多碧，其下多木。神计蒙处之，其状人身而龙首，恒游于漳渊，出入必有飘风暴雨。" }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "workflow": "Shanhaijing 2x2 Image Pipeline v1",
+  "created_at": "2026-06-23T08:06:28",
+  "project_root": "F:\\我的编程项目\\80_山海经图鉴",
+  "run_root": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260623-080248-batch04-border-retry",
+  "master_board": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260623-080248-batch04-border-retry\\masters\\board.png",
+  "master_board_sha256": "2a85c9ac9979cac0b76c2d59f23512b55b8506780bb6fba65b82d810ff9ba94d",
+  "items_file": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260623-080248-batch04-border-retry\\items.json",
+  "tmp_folder": "C:\\tmp\\shanhaijing_imagegen_20260623-080248-batch04-border-retry",
+  "crop_strategy": "exact_halves_row_major",
+  "master_board_ratio": 0.800285,
+  "realesrgan": {
+    "enabled": true,
+    "executable": "F:\\Real-ESRGAN\\realesrgan-ncnn-vulkan-20210901-windows\\realesrgan-ncnn-vulkan.exe",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "rule": "raw crops go directly to Real-ESRGAN; no pre-upscaling"
+  },
+  "web_output": {
+    "format": "webp",
+    "quality": 88,
+    "size": [
+      1600,
+      2000
+    ]
+  },
+  "outputs": [
+    {
+      "name": "西王母",
+      "slug": "xiwangmu",
+      "version": "v01",
+      "row": 1,
+      "col": 1,
+      "coords": [
+        0,
+        0,
+        561,
+        701
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-080248-batch04-border-retry\\raw\\01_xiwangmu_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-080248-batch04-border-retry\\x4\\01_xiwangmu_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_xiwangmu_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "a9acd8d8221a60e9a33f5c2229f56868c75c04124e26198df8be64a0b0a0c3d0",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    },
+    {
+      "name": "狡",
+      "slug": "jiao",
+      "version": "v01",
+      "row": 1,
+      "col": 2,
+      "coords": [
+        561,
+        0,
+        1122,
+        701
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-080248-batch04-border-retry\\raw\\02_jiao_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-080248-batch04-border-retry\\x4\\02_jiao_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_jiao_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "7a94a03c8f7e939fa6e56bca6680fbe8f2f5ebbb34e33af54aaf2dacbc642cc5",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    },
+    {
+      "name": "英招",
+      "slug": "yingzhao",
+      "version": "v01",
+      "row": 2,
+      "col": 1,
+      "coords": [
+        0,
+        701,
+        561,
+        1402
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-080248-batch04-border-retry\\raw\\03_yingzhao_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-080248-batch04-border-retry\\x4\\03_yingzhao_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_yingzhao_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "7d5b3694ec3e899e1c101d0f933beef862101f38a7824984adb0f8d68a1f80fe",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    },
+    {
+      "name": "陆吾",
+      "slug": "luwu",
+      "version": "v01",
+      "row": 2,
+      "col": 2,
+      "coords": [
+        561,
+        701,
+        1122,
+        1402
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-080248-batch04-border-retry\\raw\\04_luwu_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-080248-batch04-border-retry\\x4\\04_luwu_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_luwu_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "b605eff26d5a6fdf3f293cf3a6aa69b9aa558a5eafc456efae9648a828740766",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    }
+  ]
+}

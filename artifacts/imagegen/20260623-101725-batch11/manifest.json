@@ -1,0 +1,141 @@
+{
+  "workflow": "Shanhaijing 2x2 Image Pipeline v1",
+  "created_at": "2026-06-23T10:24:09",
+  "project_root": "F:\\我的编程项目\\80_山海经图鉴",
+  "run_root": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260623-101725-batch11",
+  "master_board": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260623-101725-batch11\\masters\\board.png",
+  "master_board_sha256": "c585a1757d5abbac92a51f33f2abab6dd7c0200c6e2e9bb304ef8f8332c7c530",
+  "items_file": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260623-101725-batch11\\items.json",
+  "tmp_folder": "C:\\tmp\\shanhaijing_imagegen_20260623-101725-batch11",
+  "crop_strategy": "exact_halves_row_major",
+  "master_board_ratio": 0.800285,
+  "realesrgan": {
+    "enabled": true,
+    "executable": "F:\\Real-ESRGAN\\realesrgan-ncnn-vulkan-20210901-windows\\realesrgan-ncnn-vulkan.exe",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "rule": "raw crops go directly to Real-ESRGAN; no pre-upscaling"
+  },
+  "web_output": {
+    "format": "webp",
+    "quality": 88,
+    "size": [
+      1600,
+      2000
+    ]
+  },
+  "outputs": [
+    {
+      "name": "鸣蛇",
+      "slug": "mingshe",
+      "version": "v01",
+      "row": 1,
+      "col": 1,
+      "coords": [
+        0,
+        0,
+        561,
+        701
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-101725-batch11\\raw\\01_mingshe_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-101725-batch11\\x4\\01_mingshe_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_mingshe_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "c46f452ba7ac2a76ee6b89e7096df142629ce9f945c7843c67ee86a0461eb8de",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    },
+    {
+      "name": "骄虫",
+      "slug": "jiaochong",
+      "version": "v01",
+      "row": 1,
+      "col": 2,
+      "coords": [
+        561,
+        0,
+        1122,
+        701
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-101725-batch11\\raw\\02_jiaochong_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-101725-batch11\\x4\\02_jiaochong_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_jiaochong_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "c673f64a6582d871a857589d1795c8ea2fa05175b9f0b8f9ae32c0fd165cf91c",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    },
+    {
+      "name": "鸩",
+      "slug": "zhen",
+      "version": "v01",
+      "row": 2,
+      "col": 1,
+      "coords": [
+        0,
+        701,
+        561,
+        1402
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-101725-batch11\\raw\\03_zhen_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-101725-batch11\\x4\\03_zhen_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_zhen_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "d8776e4f53de31df3ca3758e79e94eee76933909c69902af01fbe0080a5c10c1",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    },
+    {
+      "name": "跂踵",
+      "slug": "qizhong",
+      "version": "v01",
+      "row": 2,
+      "col": 2,
+      "coords": [
+        561,
+        701,
+        1122,
+        1402
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-101725-batch11\\raw\\04_qizhong_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-101725-batch11\\x4\\04_qizhong_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_qizhong_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "b9607a2bd2a8175eab6b2ddc7dadc085a18d4b2a2684e5c84b6f5a5223c6ee04",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    }
+  ]
+}

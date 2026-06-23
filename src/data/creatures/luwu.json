@@ -1,0 +1,34 @@
+{
+  "slug": "luwu",
+  "name": "陆吾",
+  "alias": "昆仑帝都守神",
+  "pinyin": "LÙ WÚ",
+  "type": "deity",
+  "tags": ["神能", "司时"],
+  "volume": 2,
+  "book": "西山经",
+  "scroll": "卷二",
+  "seq": 60,
+  "plate": "贰拾",
+  "mark": "陸",
+  "location": "昆仑之丘",
+  "region": "西次三经",
+  "mapPos": { "x": 0.22, "y": 0.42 },
+  "geoConfidence": "none",
+  "image": "/images/creatures/creature_luwu_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "陆吾，人面虎身虎爪且生有九尾、守护昆仑帝都的古神工笔图",
+  "imageTag": "人面 · 虎身虎爪 · 九尾",
+  "quote": "神陆吾司之。其神状虎身而九尾，人面而虎爪；是神也，司天之九部及帝之囿时。",
+  "summary": "陆吾镇守昆仑之丘的天帝下都，形为人面、虎身、虎爪并生九尾。它掌管天之九部和帝苑的时节秩序，既是昆仑门户的威严守护者，也承担维护天界分区与园囿运行的神职。",
+  "facts": [
+    { "label": "所司", "value": "昆仑帝之下都", "basis": "text" },
+    { "label": "形貌", "value": "虎身九尾 · 人面虎爪", "basis": "text" },
+    { "label": "神职", "value": "司天之九部", "basis": "text" },
+    { "label": "司时", "value": "司帝之囿时", "basis": "text" }
+  ],
+  "sourceNote": "陆吾见于《西山经》昆仑之丘。图像严格保留一颗人面、虎身虎爪与九条尾巴，不与《海内西经》的九首开明兽混同；面容和尾部排列属于艺术推定。",
+  "references": [
+    { "book": "西山经", "text": "西南四百里，曰昆仑之丘，是实惟帝之下都，神陆吾司之。其神状虎身而九尾，人面而虎爪；是神也，司天之九部及帝之囿时。" }
+  ]
+}

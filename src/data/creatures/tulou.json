@@ -1,0 +1,34 @@
+{
+  "slug": "tulou",
+  "name": "土蝼",
+  "alias": "昆仑食人之兽",
+  "pinyin": "TǓ LÓU",
+  "type": "beast",
+  "tags": ["食人"],
+  "volume": 2,
+  "book": "西山经",
+  "scroll": "卷二",
+  "seq": 61,
+  "plate": "贰拾壹",
+  "mark": "土",
+  "location": "昆仑之丘",
+  "region": "西次三经",
+  "mapPos": { "x": 0.3, "y": 0.34 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_tulou_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "土蝼，昆仑山中羊形四角的食人异兽古籍工笔图",
+  "imageTag": "羊形 · 四角 · 食人",
+  "quote": "有兽焉，其状如羊而四角，名曰土蝼，是食人。",
+  "summary": "土蝼栖息于昆仑之丘，主体形如羊，头上却生有四角，并会捕食人。经文没有赋予它复杂神能或灾兆，四角羊形与食人习性就是全部核心特征，使它成为昆仑神域中直观而凶险的异兽。",
+  "facts": [
+    { "label": "所居", "value": "昆仑之丘", "basis": "text" },
+    { "label": "形貌", "value": "其状如羊", "basis": "text" },
+    { "label": "异征", "value": "四角", "basis": "text" },
+    { "label": "习性", "value": "是食人", "basis": "text" }
+  ],
+  "sourceNote": "土蝼见于《西山经》昆仑之丘。原文未说明四角排列、羊种与毛色，图像采用山羊骨架，将四角分列于头顶两侧；这些细节属于艺术推定。",
+  "references": [
+    { "book": "西山经", "text": "有兽焉，其状如羊而四角，名曰土蝼，是食人。" }
+  ]
+}

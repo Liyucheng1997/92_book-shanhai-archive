@@ -1,0 +1,34 @@
+{
+  "slug": "longzhi",
+  "name": "蠪侄",
+  "alias": "九首九尾食人狐",
+  "pinyin": "LÓNG ZHÍ",
+  "type": "beast",
+  "tags": ["食人"],
+  "volume": 4,
+  "book": "东山经",
+  "scroll": "卷四",
+  "seq": 31,
+  "plate": "叁拾陆",
+  "mark": "蠪",
+  "location": "凫丽之山",
+  "region": "东次二经",
+  "mapPos": { "x": 0.86, "y": 0.58 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_longzhi_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "蠪侄，一身九首九尾并生虎爪的凫丽山食人狐形异兽古籍工笔图",
+  "imageTag": "狐身 · 九首九尾 · 虎爪食人",
+  "quote": "有兽焉，其状如狐，而九尾、九首、虎爪，名曰蠪侄，其音如婴儿，是食人。",
+  "summary": "蠪侄栖息在多金玉与箴石的凫丽之山，以狐身为主体，却同时生有九个头、九条尾巴和虎一般的利爪。它发出婴儿般的叫声，并会捕食人，是《东山经》中结构最繁复、威胁最直接的异兽之一。",
+  "facts": [
+    { "label": "形貌", "value": "其状如狐", "basis": "text" },
+    { "label": "异征", "value": "九尾 · 九首 · 虎爪", "basis": "text" },
+    { "label": "鸣声", "value": "其音如婴儿", "basis": "text" },
+    { "label": "习性", "value": "是食人", "basis": "text" }
+  ],
+  "sourceNote": "蠪侄见于《东山经》凫丽之山，传本亦见“蠪姪”“蠪蛭”等写法。本条按清单采用“蠪侄”；图像以单一狐身承载九首、九尾，头尾排列和共同骨架属于艺术推定。",
+  "references": [
+    { "book": "东山经", "text": "又南五百里，曰凫丽之山，其上多金玉，其下多箴石。有兽焉，其状如狐，而九尾、九首、虎爪，名曰蠪侄，其音如婴儿，是食人。" }
+  ]
+}

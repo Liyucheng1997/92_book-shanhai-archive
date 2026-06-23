@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import {
   ArrowUpRight,
   BookOpenText,
@@ -10,18 +10,12 @@ import {
 import { creatures, typeLabels, basisLabels, presentTypes, typeSummary } from './data'
 
 const basisOrder = { text: 0, note: 1, inferred: 2 }
+const CATALOGUE_PAGE_SIZE = 6
 
 function ShanHaiMap({ selected, onSelect }) {
   return (
     <div className="map-stage" aria-label="山海经异兽方位示意图">
-      <svg className="map-bg" viewBox="0 0 800 520" aria-hidden="true">
-        <path
-          className="landmass"
-          d="M150 90 L300 60 L470 80 L600 55 L690 130 L730 250 L690 380 L600 450 L450 480 L300 460 L170 430 L90 330 L70 200 Z"
-        />
-        <path className="rivers" d="M150 250 C300 210 460 300 700 240" />
-        <path className="rivers" d="M380 90 C360 220 420 340 380 470" />
-      </svg>
+      <img className="map-bg-image" src="/images/Map.png" alt="" aria-hidden="true" />
 
       <span className="region-label rl-north">北 · 海外大荒</span>
       <span className="region-label rl-west">西山</span>
@@ -56,6 +50,7 @@ export function App() {
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [query, setQuery] = useState('')
   const [typeFilter, setTypeFilter] = useState('all')
+  const [cataloguePage, setCataloguePage] = useState(0)
   const searchRef = useRef(null)
 
   const selected = byIdSafe(selectedId)
@@ -72,6 +67,15 @@ export function App() {
     })
   }, [query, typeFilter])
 
+  useEffect(() => setCataloguePage(0), [query, typeFilter])
+
+  const cataloguePageCount = Math.max(1, Math.ceil(filtered.length / CATALOGUE_PAGE_SIZE))
+  const safeCataloguePage = Math.min(cataloguePage, cataloguePageCount - 1)
+  const pagedCreatures = filtered.slice(
+    safeCataloguePage * CATALOGUE_PAGE_SIZE,
+    (safeCataloguePage + 1) * CATALOGUE_PAGE_SIZE,
+  )
+
   const selectCreature = (id) => {
     setSelectedId(id)
     setDrawerOpen(false)
@@ -86,18 +90,48 @@ export function App() {
     document.getElementById('source')?.scrollIntoView({ behavior: 'smooth' })
   }
 
+  const scrollToAtlas = () => {
+    document.getElementById('atlas')?.scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
     <div className="app-shell">
       <div className="grain" />
       <header className="site-header">
         <button className="icon-btn mobile-only" onClick={() => setDrawerOpen(true)} aria-label="打开图鉴目录"><Menu /></button>
-        <a className="brand" href="#top" aria-label="山海异志首页"><span className="brand-seal">异志</span><span><b>山海异志</b><small>SHAN HAI ARCHIVE</small></span></a>
-        <nav><a className="active" href="#atlas">异兽图鉴</a><a href="#map">山海舆图</a><a href="#source">古籍寻踪</a></nav>
+        <a className="brand" href="#map" aria-label="山海异志首页"><span className="brand-seal">异志</span><span><b>山海异志</b><small>SHAN HAI ARCHIVE</small></span></a>
+        <nav><a className="active" href="#map">山海舆图</a><a href="#atlas">异兽图鉴</a><a href="#source">古籍寻踪</a></nav>
         <button className="search-btn" onClick={focusSearch} aria-label="搜索异兽"><Search size={18} /><span>搜索异兽</span><kbd>{filtered.length}/{creatures.length}</kbd></button>
       </header>
 
       <main id="top">
-        <section className="hero" id="atlas">
+        <section className="map-section map-first" id="map">
+          <div className="section-heading">
+            <div><span className="section-no">壹</span><div><div className="eyebrow">WHERE WAS IT?</div><h1>山海 · 方位舆图</h1></div></div>
+            <p>《山海经》的地理体系混合真实见闻、方位叙事与神话想象，无法与今日行政区可靠对应。此图按古籍相对方位作示意布局，点击标记可查看对应记载。</p>
+          </div>
+          <div className="map-card">
+            <div className="map-toolbar">
+              <span className="map-hint"><Compass size={15} /> 点击地图标记切换异兽</span>
+              <span className="confidence"><i />对应今地可信度：{selected.geoConfidence === 'none' ? '不适用' : '低'}</span>
+            </div>
+            <ShanHaiMap selected={selected} onSelect={selectCreature} />
+            <div className="location-copy">
+              <div><span>古籍地点</span><h3>{selected.location}</h3></div>
+              <div><span>所属</span><h3>{selected.scroll} · {selected.region}</h3></div>
+              <blockquote className="map-quote">“{selected.quote}”</blockquote>
+              <button className="map-jump" onClick={scrollToAtlas}>查看{selected.name}图鉴 <ArrowUpRight size={16} /></button>
+            </div>
+          </div>
+        </section>
+
+        <section className="atlas-section" id="atlas" aria-labelledby="atlas-title">
+          <div className="atlas-heading section-heading">
+            <div><span className="section-no">贰</span><div><div className="eyebrow">CREATURE ARCHIVE</div><h2 id="atlas-title">异兽 · 图鉴目录</h2></div></div>
+            <p>依十八卷篇目与卷内次序辑录。通过左侧分页目录筛选异物，图版、原文和考据会同步切换。</p>
+          </div>
+
+          <div className="hero">
           <aside className={`catalogue ${drawerOpen ? 'open' : ''}`}>
             <button className="close-drawer mobile-only" onClick={() => setDrawerOpen(false)} aria-label="关闭目录"><X /></button>
             <div className="eyebrow"><BookOpenText size={15} /> 异兽目录</div>
@@ -110,7 +144,7 @@ export function App() {
                 ref={searchRef}
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder="搜索名称 / 山名 / 篇目"
+                placeholder="搜索名称、山名或篇目"
                 aria-label="搜索异兽"
               />
               {query && <button className="clear-search" onClick={() => setQuery('')} aria-label="清除搜索"><X size={14} /></button>}
@@ -124,7 +158,7 @@ export function App() {
             </div>
 
             <div className="creature-list">
-              {filtered.map((item) => (
+              {pagedCreatures.map((item) => (
                 <button key={item.slug} className={item.slug === selected.slug ? 'active' : ''} onClick={() => selectCreature(item.slug)} aria-pressed={item.slug === selected.slug}>
                   <span className="list-index">{typeLabels[item.type]}</span>
                   <span><b>{item.name}</b><small>{item.book} · {item.location}</small></span>
@@ -132,6 +166,19 @@ export function App() {
                 </button>
               ))}
               {filtered.length === 0 && <p className="empty-hint">未找到匹配的异兽</p>}
+            </div>
+            <div className="catalogue-pagination" aria-label="异兽目录分页">
+              <button
+                onClick={() => setCataloguePage((page) => Math.max(0, page - 1))}
+                disabled={safeCataloguePage === 0}
+                aria-label="上一页"
+              >上一页</button>
+              <span>第 {safeCataloguePage + 1} / {cataloguePageCount} 页</span>
+              <button
+                onClick={() => setCataloguePage((page) => Math.min(cataloguePageCount - 1, page + 1))}
+                disabled={safeCataloguePage >= cataloguePageCount - 1}
+                aria-label="下一页"
+              >下一页</button>
             </div>
             <div className="coming-soon">据《山海经》十八卷次第辑录 · 持续增补</div>
           </aside>
@@ -166,24 +213,6 @@ export function App() {
             </dl>
             <button className="read-more" onClick={scrollToSource}>查阅完整考据 <ArrowUpRight size={17} /></button>
           </article>
-        </section>
-
-        <section className="map-section" id="map">
-          <div className="section-heading">
-            <div><span className="section-no">壹</span><div><div className="eyebrow">WHERE WAS IT?</div><h2>山海 · 方位舆图</h2></div></div>
-            <p>《山海经》的地理体系混合真实见闻、方位叙事与神话想象，无法与今日行政区可靠对应。此图按古籍相对方位作示意布局，点击标记可查看对应记载。</p>
-          </div>
-          <div className="map-card">
-            <div className="map-toolbar">
-              <span className="map-hint"><Compass size={15} /> 点击地图标记切换异兽</span>
-              <span className="confidence"><i />对应今地可信度：{selected.geoConfidence === 'none' ? '不适用' : '低'}</span>
-            </div>
-            <ShanHaiMap selected={selected} onSelect={selectCreature} />
-            <div className="location-copy">
-              <div><span>古籍地点</span><h3>{selected.location}</h3></div>
-              <div><span>所属</span><h3>{selected.scroll} · {selected.region}</h3></div>
-              <blockquote className="map-quote">“{selected.quote}”</blockquote>
-            </div>
           </div>
         </section>
 

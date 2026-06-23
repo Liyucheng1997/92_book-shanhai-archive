@@ -1,0 +1,34 @@
+{
+  "slug": "fuzhu",
+  "name": "夫诸",
+  "alias": "四角白鹿水兆兽",
+  "pinyin": "FŪ ZHŪ",
+  "type": "beast",
+  "tags": ["水兆"],
+  "volume": 5,
+  "book": "中山经",
+  "scroll": "卷五",
+  "seq": 30,
+  "plate": "肆拾壹",
+  "mark": "夫",
+  "location": "敖岸之山",
+  "region": "中次三经",
+  "mapPos": { "x": 0.44, "y": 0.42 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_fuzhu_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "夫诸，生有四角的白鹿立于洪水漫涨山谷中的古籍工笔图",
+  "imageTag": "白鹿 · 四角 · 邑中大水",
+  "quote": "有兽焉，其状如白鹿而四角，名曰夫诸，见则其邑大水。",
+  "summary": "夫诸栖息在盛产美玉的敖岸之山，形貌如通体洁白的鹿，却生有四角。它本身没有食人或攻击性的记载，但一旦现身，附近城邑便会发生大水，因此被视作外表温雅而征兆凶险的水灾异兽。",
+  "facts": [
+    { "label": "形貌", "value": "其状如白鹿", "basis": "text" },
+    { "label": "异征", "value": "生有四角", "basis": "text" },
+    { "label": "所居", "value": "敖岸之山", "basis": "text" },
+    { "label": "灾兆", "value": "见则其邑大水", "basis": "text" }
+  ],
+  "sourceNote": "夫诸见于《中山经·中次三经》敖岸之山。原文仅说明白鹿与四角，图像采用真实鹿科体态，将四角安排为两对独立鹿角，并以山谷涨水表现灾兆；角形与体量属于艺术推定。",
+  "references": [
+    { "book": "中山经", "text": "有兽焉，其状如白鹿而四角，名曰夫诸，见则其邑大水。" }
+  ]
+}

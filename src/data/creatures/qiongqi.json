@@ -1,0 +1,34 @@
+{
+  "slug": "qiongqi",
+  "name": "穷奇",
+  "alias": "邽山食人恶兽",
+  "pinyin": "QIÓNG QÍ",
+  "type": "beast",
+  "tags": ["食人"],
+  "volume": 2,
+  "book": "西山经",
+  "scroll": "卷二",
+  "seq": 90,
+  "plate": "伍拾捌",
+  "mark": "穷",
+  "location": "邽山",
+  "region": "西次四经",
+  "mapPos": { "x": 0.22, "y": 0.62 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_qiongqi_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "穷奇，牛形猬毛、如狗吼叫的食人恶兽古籍工笔图",
+  "imageTag": "牛形 · 猬毛 · 食人",
+  "quote": "有兽焉，其状如牛，蝟毛，名曰穷奇，音如獆狗，是食人。",
+  "summary": "《西山经》中的穷奇并非后世常见的有翼虎形，而是形如牛、遍生猬毛的食人恶兽。它的叫声像狂吠的狗，形象粗粝凶狠，是四凶系统中传播最广的异兽之一。",
+  "facts": [
+    { "label": "形貌", "value": "其状如牛", "basis": "text" },
+    { "label": "异征", "value": "蝟毛", "basis": "text" },
+    { "label": "声音", "value": "音如獆狗", "basis": "text" },
+    { "label": "习性", "value": "是食人", "basis": "text" }
+  ],
+  "sourceNote": "穷奇在传世材料中有牛形与虎形等差异。本条依《西山经》邽山段采用牛形猬毛版本，未采用后世有翼虎造型。",
+  "references": [
+    { "book": "西山经", "text": "有兽焉，其状如牛，蝟毛，名曰穷奇，音如獆狗，是食人。" }
+  ]
+}

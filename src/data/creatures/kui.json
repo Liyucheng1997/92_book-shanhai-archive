@@ -1,0 +1,34 @@
+{
+  "slug": "kui",
+  "name": "夔",
+  "alias": "流波山雷兽",
+  "pinyin": "KUÍ",
+  "type": "beast",
+  "tags": ["神能"],
+  "volume": 14,
+  "book": "大荒东经",
+  "scroll": "卷十四",
+  "seq": 20,
+  "plate": "伍拾陆",
+  "mark": "夔",
+  "location": "流波山",
+  "region": "大荒东方",
+  "mapPos": { "x": 0.92, "y": 0.42 },
+  "geoConfidence": "none",
+  "image": "/images/creatures/creature_kui_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "夔，苍身无角一足、出入海水则风雨雷鸣的古籍工笔兽图",
+  "imageTag": "如牛 · 苍身无角 · 一足",
+  "quote": "其上有兽，状如牛，苍身而无角，一足，出入水则必风雨，其光如日月，其声如雷，其名曰夔。",
+  "summary": "夔出没于东海流波山，形如牛，苍身无角，只有一足。它出入水中便引发风雨，光如日月，声如雷霆；传说黄帝取其皮制鼓，用以震慑天下。",
+  "facts": [
+    { "label": "形貌", "value": "状如牛，苍身而无角", "basis": "text" },
+    { "label": "异征", "value": "一足", "basis": "text" },
+    { "label": "神能", "value": "出入水则必风雨", "basis": "text" },
+    { "label": "声光", "value": "光如日月，声如雷", "basis": "text" }
+  ],
+  "sourceNote": "夔见于《大荒东经》流波山。图像以无角、一足和苍牛形为核心，雷雨海浪用于表现原文声光与风雨神能。",
+  "references": [
+    { "book": "大荒东经", "text": "东海中有流波山……其上有兽，状如牛，苍身而无角，一足，出入水则必风雨，其光如日月，其声如雷，其名曰夔。" }
+  ]
+}

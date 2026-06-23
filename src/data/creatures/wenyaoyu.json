@@ -1,0 +1,34 @@
+{
+  "slug": "wenyaoyu",
+  "name": "文鳐鱼",
+  "alias": "夜飞丰年之鱼",
+  "pinyin": "WÉN YÁO YÚ",
+  "type": "fish",
+  "tags": ["丰年"],
+  "volume": 2,
+  "book": "西山经",
+  "scroll": "卷二",
+  "seq": 45,
+  "plate": "贰拾叁",
+  "mark": "鳐",
+  "location": "泰器之山 · 观水",
+  "region": "西次三经",
+  "mapPos": { "x": 0.32, "y": 0.7 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_wenyaoyu_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "文鳐鱼，苍纹白首赤喙、鱼身生鸟翼并于月夜飞行的古籍工笔图",
+  "imageTag": "鲤形 · 鸟翼 · 夜飞",
+  "quote": "是多文鳐鱼，状如鲤鱼，鱼身而鸟翼，苍文而白首，赤喙，常行西海，游于东海，以夜飞。",
+  "summary": "文鳐鱼生活在泰器山流出的观水中，形如鲤鱼，鱼身生有鸟翼，遍体苍色纹理，白首赤喙。它往来西海与东海，并在夜间飞行；经文还说它出现时预示天下丰收。",
+  "facts": [
+    { "label": "形貌", "value": "状如鲤鱼 · 鱼身鸟翼", "basis": "text" },
+    { "label": "色征", "value": "苍文 · 白首 · 赤喙", "basis": "text" },
+    { "label": "行动", "value": "游于东西海 · 以夜飞", "basis": "text" },
+    { "label": "征兆", "value": "见则天下大穰", "basis": "text" }
+  ],
+  "sourceNote": "文鳐鱼见于《西山经》泰器之山观水。图像以鲤鱼骨架为主体，将一对鸟翼自然连接于躯干；翼羽形态与苍纹分布属于艺术推定。",
+  "references": [
+    { "book": "西山经", "text": "又西百八十里，曰泰器之山。观水出焉，西流注于流沙。是多文鳐鱼，状如鲤鱼，鱼身而鸟翼，苍文而白首，赤喙，常行西海，游于东海，以夜飞。" }
+  ]
+}

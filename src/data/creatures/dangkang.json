@@ -1,0 +1,34 @@
+{
+  "slug": "dangkang",
+  "name": "当康",
+  "alias": "大穰丰年之兽",
+  "pinyin": "DĀNG KĀNG",
+  "type": "beast",
+  "tags": ["丰年"],
+  "volume": 4,
+  "book": "东山经",
+  "scroll": "卷四",
+  "seq": 50,
+  "plate": "叁拾捌",
+  "mark": "當",
+  "location": "钦山",
+  "region": "东次四经",
+  "mapPos": { "x": 0.94, "y": 0.5 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_dangkang_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "当康，生有獠牙的豚形丰年瑞兽立于成熟稻田间的古籍工笔图",
+  "imageTag": "豚形 · 有牙 · 大穰丰年",
+  "quote": "有兽焉，其状如豚而有牙，其名曰当康，其鸣自叫，见则天下大穰。",
+  "summary": "当康出没于多金玉的钦山，形貌像野猪，口中生有醒目的獠牙，鸣叫时仿佛呼唤自己的名字。它不是带来灾祸的凶兽，而是丰收征兆；当它现身，天下五谷丰登，田野大穰。",
+  "facts": [
+    { "label": "形貌", "value": "其状如豚而有牙", "basis": "text" },
+    { "label": "鸣声", "value": "其鸣自叫", "basis": "text" },
+    { "label": "所居", "value": "钦山", "basis": "text" },
+    { "label": "瑞兆", "value": "见则天下大穰", "basis": "text" }
+  ],
+  "sourceNote": "当康见于《东山经》钦山。原文只明示豚形与有牙，图像采用野猪的真实体态和成对獠牙，并以成熟谷田表现“大穰”；毛色、体量和姿态属于艺术推定。",
+  "references": [
+    { "book": "东山经", "text": "又东南二百里，曰钦山，多金玉而无石。师水出焉，而北流注于皋泽，其中多鱃鱼，多文贝。有兽焉，其状如豚而有牙，其名曰当康，其鸣自叫，见则天下大穰。" }
+  ]
+}

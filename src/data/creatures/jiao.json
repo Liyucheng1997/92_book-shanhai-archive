@@ -1,0 +1,34 @@
+{
+  "slug": "jiao",
+  "name": "狡",
+  "alias": "玉山丰年之兽",
+  "pinyin": "JIǍO",
+  "type": "beast",
+  "tags": ["丰年"],
+  "volume": 2,
+  "book": "西山经",
+  "scroll": "卷二",
+  "seq": 71,
+  "plate": "拾捌",
+  "mark": "狡",
+  "location": "玉山",
+  "region": "西次三经",
+  "mapPos": { "x": 0.16, "y": 0.84 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_jiao_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "狡，犬身豹纹并生牛角、立于丰熟谷物间的玉山异兽工笔图",
+  "imageTag": "犬身 · 豹文 · 牛角",
+  "quote": "有兽焉，其状如犬而豹文，其角如牛，其名曰狡，其音如吠犬，见则其国大穰。",
+  "summary": "狡与西王母同居玉山，形体如犬，遍身豹纹，头角则像牛角，鸣声仍如犬吠。它并非带来灾祸的凶兽，出现时反而预示所在国家五谷丰登，是《西山经》中形貌奇异却主丰年的瑞兽。",
+  "facts": [
+    { "label": "形貌", "value": "其状如犬而豹文", "basis": "text" },
+    { "label": "头角", "value": "其角如牛", "basis": "text" },
+    { "label": "鸣声", "value": "其音如吠犬", "basis": "text" },
+    { "label": "征兆", "value": "见则其国大穰", "basis": "text" }
+  ],
+  "sourceNote": "狡见于《西山经》玉山段。原文没有说明角的数量、毛色与体型，图像采用一对牛角和真实犬科骨架，并以成熟谷物表现“大穰”，这些均为服务辨识与叙事的艺术推定。",
+  "references": [
+    { "book": "西山经", "text": "有兽焉，其状如犬而豹文，其角如牛，其名曰狡，其音如吠犬，见则其国大穰。" }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "qiquan",
+  "name": "鬿雀",
+  "alias": "北号食人怪鸟",
+  "pinyin": "QÍ QUÈ",
+  "type": "bird",
+  "tags": ["食人"],
+  "volume": 4,
+  "book": "东山经",
+  "scroll": "卷四",
+  "seq": 40,
+  "plate": "叁拾贰",
+  "mark": "鬿",
+  "location": "北号之山",
+  "region": "东次四经",
+  "mapPos": { "x": 0.92, "y": 0.28 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_qiquan_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "鬿雀，鸡身白首、鼠足虎爪的北号山食人怪鸟古籍工笔图",
+  "imageTag": "鸡身白首 · 鼠足 · 虎爪",
+  "quote": "有鸟焉，其状如鸡而白首，鼠足而虎爪，其名曰鬿雀，亦食人。",
+  "summary": "鬿雀生活在北号之山，主体形如鸡，头部洁白，足部却像鼠，并生有虎一般强劲锋利的爪，且会捕食人。它的记载极短，没有灾兆或神能，全部凶险感都集中在不相称的足爪与食人习性上。",
+  "facts": [
+    { "label": "形貌", "value": "其状如鸡而白首", "basis": "text" },
+    { "label": "异征", "value": "鼠足而虎爪", "basis": "text" },
+    { "label": "所居", "value": "北号之山", "basis": "text" },
+    { "label": "习性", "value": "亦食人", "basis": "text" }
+  ],
+  "sourceNote": "鬿雀见于《东山经·东次四经》北号之山，部分传本作“鬿雈”。原文没有说明羽色和体量；图像以鸡形骨架为主体，强化白首、鼠足与虎爪的结构差异，其羽毛配色与姿态属于艺术推定。",
+  "references": [
+    { "book": "东山经", "text": "有鸟焉，其状如鸡而白首，鼠足而虎爪，其名曰鬿雀，亦食人。" }
+  ]
+}

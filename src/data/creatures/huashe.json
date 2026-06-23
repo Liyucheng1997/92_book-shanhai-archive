@@ -1,0 +1,34 @@
+{
+  "slug": "huashe",
+  "name": "化蛇",
+  "alias": "豺身鸟翼水灾蛇",
+  "pinyin": "HUÀ SHÉ",
+  "type": "serpent",
+  "tags": ["水兆"],
+  "volume": 5,
+  "book": "中山经",
+  "scroll": "卷五",
+  "seq": 10,
+  "plate": "肆拾叁",
+  "mark": "化",
+  "location": "阳山 · 阳水",
+  "region": "中次二经",
+  "mapPos": { "x": 0.38, "y": 0.56 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_huashe_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "化蛇，人面豺身、背生鸟翼并以蛇形姿态行于洪水中的古籍工笔图",
+  "imageTag": "人面豺身 · 鸟翼蛇行 · 邑中大水",
+  "quote": "其中多化蛇，其状如人面而豺身，鸟翼而蛇行，其音如叱呼，见则其邑大水。",
+  "summary": "化蛇生活在阳山流出的阳水中，长着人的面孔、豺的身体和鸟翼，行动姿态却像蛇一样蜿蜒。它的叫声如厉声叱喝，一旦出现，附近城邑便会遭遇洪水，是结构复杂且灾兆明确的水生异怪。",
+  "facts": [
+    { "label": "形貌", "value": "人面而豺身", "basis": "text" },
+    { "label": "异征", "value": "鸟翼而蛇行", "basis": "text" },
+    { "label": "鸣声", "value": "其音如叱呼", "basis": "text" },
+    { "label": "灾兆", "value": "见则其邑大水", "basis": "text" }
+  ],
+  "sourceNote": "化蛇见于《中山经·中次二经》阳水。原文的“蛇行”描述行动方式，并非明确说它具有蛇身；图像保留四足豺身，以低伏曲折姿态表现蛇行，头颈连接、羽翼形态与毛色属于艺术推定。",
+  "references": [
+    { "book": "中山经", "text": "又西三百里，曰阳山，多石，无草木。阳水出焉，而北流注于伊水。其中多化蛇，其状如人面而豺身，鸟翼而蛇行，其音如叱呼，见则其邑大水。" }
+  ]
+}

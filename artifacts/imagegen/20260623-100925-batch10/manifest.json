@@ -1,0 +1,141 @@
+{
+  "workflow": "Shanhaijing 2x2 Image Pipeline v1",
+  "created_at": "2026-06-23T10:14:47",
+  "project_root": "F:\\我的编程项目\\80_山海经图鉴",
+  "run_root": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260623-100925-batch10",
+  "master_board": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260623-100925-batch10\\masters\\board.png",
+  "master_board_sha256": "4b083e9fe6eff2254d002b1d397449d938f05690732c01d8d30f5babe4968a7e",
+  "items_file": "F:\\我的编程项目\\80_山海经图鉴\\artifacts\\imagegen\\20260623-100925-batch10\\items.json",
+  "tmp_folder": "C:\\tmp\\shanhaijing_imagegen_20260623-100925-batch10",
+  "crop_strategy": "exact_halves_row_major",
+  "master_board_ratio": 0.799002,
+  "realesrgan": {
+    "enabled": true,
+    "executable": "F:\\Real-ESRGAN\\realesrgan-ncnn-vulkan-20210901-windows\\realesrgan-ncnn-vulkan.exe",
+    "model": "realesrgan-x4plus",
+    "scale": 4,
+    "rule": "raw crops go directly to Real-ESRGAN; no pre-upscaling"
+  },
+  "web_output": {
+    "format": "webp",
+    "quality": 88,
+    "size": [
+      1600,
+      2000
+    ]
+  },
+  "outputs": [
+    {
+      "name": "夫诸",
+      "slug": "fuzhu",
+      "version": "v01",
+      "row": 1,
+      "col": 1,
+      "coords": [
+        0,
+        0,
+        560,
+        702
+      ],
+      "source_size": [
+        1121,
+        1403
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-100925-batch10\\raw\\01_fuzhu_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-100925-batch10\\x4\\01_fuzhu_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_fuzhu_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "8ec9cd27308e5cc84abf631725475e15aceba0b45ebcf996129397147184d6c8",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.797721
+    },
+    {
+      "name": "计蒙",
+      "slug": "jimeng",
+      "version": "v01",
+      "row": 1,
+      "col": 2,
+      "coords": [
+        560,
+        0,
+        1121,
+        702
+      ],
+      "source_size": [
+        1121,
+        1403
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-100925-batch10\\raw\\02_jimeng_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-100925-batch10\\x4\\02_jimeng_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_jimeng_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "bd7290a721637c00389bc6c255de10df465df3676f4bb59254009b383357f1e4",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.799145
+    },
+    {
+      "name": "化蛇",
+      "slug": "huashe",
+      "version": "v01",
+      "row": 2,
+      "col": 1,
+      "coords": [
+        0,
+        702,
+        560,
+        1403
+      ],
+      "source_size": [
+        1121,
+        1403
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-100925-batch10\\raw\\03_huashe_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-100925-batch10\\x4\\03_huashe_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_huashe_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "1ec98a44f4a57acf9a588cc36085fa229aa343b82a408984d028869e45dcd09b",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.798859
+    },
+    {
+      "name": "马腹",
+      "slug": "mafu",
+      "version": "v01",
+      "row": 2,
+      "col": 2,
+      "coords": [
+        560,
+        702,
+        1121,
+        1403
+      ],
+      "source_size": [
+        1121,
+        1403
+      ],
+      "raw_crop_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-100925-batch10\\raw\\04_mafu_v01.png",
+      "realesrgan_x4_tmp": "C:\\tmp\\shanhaijing_imagegen_20260623-100925-batch10\\x4\\04_mafu_v01.png",
+      "final_path": "F:\\我的编程项目\\80_山海经图鉴\\public\\images\\creatures\\creature_mafu_v01.webp",
+      "final_size": [
+        1600,
+        2000
+      ],
+      "sha256": "54204ce3bdbc6817c4a6fb8a6fa4a79312fc695ea1de0390697dae054a32af39",
+      "operation": "raw_crop_direct_to_realesrgan_x4_then_downsize_to_webp",
+      "normalization": "none_true_4x5_source",
+      "source_ratio": 0.800285
+    }
+  ]
+}

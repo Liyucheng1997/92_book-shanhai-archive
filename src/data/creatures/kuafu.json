@@ -1,0 +1,34 @@
+{
+  "slug": "kuafu",
+  "name": "夸父",
+  "alias": "逐日巨人",
+  "pinyin": "KUĀ FÙ",
+  "type": "figure",
+  "tags": ["逐日"],
+  "volume": 8,
+  "book": "海外北经",
+  "scroll": "卷八",
+  "seq": 30,
+  "plate": "伍拾壹",
+  "mark": "夸",
+  "location": "河渭至大泽道中",
+  "region": "海外北方",
+  "mapPos": { "x": 0.58, "y": 0.1 },
+  "geoConfidence": "none",
+  "image": "/images/creatures/creature_kuafu_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "夸父，手持木杖追逐红日、行于荒原山泽之间的古籍工笔图",
+  "imageTag": "巨人 · 逐日 · 杖化邓林",
+  "quote": "夸父与日逐走，入日；渴，欲得饮，饮于河、渭；河、渭不足，北饮大泽。未至，道渴而死。弃其杖，化为邓林。",
+  "summary": "夸父追逐太阳，因口渴而饮尽河水、渭水，又想北上饮大泽，却在途中渴死。他抛下的手杖化为邓林，令逐日神话在悲剧中留下生长与延续的意象。",
+  "facts": [
+    { "label": "行动", "value": "与日逐走", "basis": "text" },
+    { "label": "饮水", "value": "饮于河、渭", "basis": "text" },
+    { "label": "结局", "value": "道渴而死", "basis": "text" },
+    { "label": "遗迹", "value": "弃杖化为邓林", "basis": "text" }
+  ],
+  "sourceNote": "夸父逐日见于《海外北经》。图像以巨人和红日表现逐日，不把夸父画成现代英雄造型；衣饰、体量和邓林萌生为艺术推定。",
+  "references": [
+    { "book": "海外北经", "text": "夸父与日逐走，入日；渴，欲得饮，饮于河、渭；河、渭不足，北饮大泽。未至，道渴而死。弃其杖，化为邓林。" }
+  ]
+}

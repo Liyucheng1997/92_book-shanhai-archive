@@ -1,0 +1,34 @@
+{
+  "slug": "yingzhao",
+  "name": "英招",
+  "alias": "帝之平圃守神",
+  "pinyin": "YĪNG ZHĀO",
+  "type": "deity",
+  "tags": ["神能"],
+  "volume": 2,
+  "book": "西山经",
+  "scroll": "卷二",
+  "seq": 50,
+  "plate": "拾玖",
+  "mark": "英",
+  "location": "槐江之山",
+  "region": "西次三经",
+  "mapPos": { "x": 0.26, "y": 0.58 },
+  "geoConfidence": "none",
+  "image": "/images/creatures/creature_yingzhao_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "英招，人面马身、虎纹鸟翼并巡行槐江山的古神工笔图",
+  "imageTag": "人面 · 马身虎文 · 鸟翼",
+  "quote": "实惟帝之平圃，神英招司之，其状马身而人面，虎文而鸟翼，徇于四海，其音如榴。",
+  "summary": "英招掌管槐江山上的天帝平圃，生有人面与马身，躯体布满虎纹，背负鸟翼，并巡行四海。它既是结构鲜明的复合神兽，也是帝苑的守护神，活动范围并不局限于一山一水。",
+  "facts": [
+    { "label": "神职", "value": "司帝之平圃", "basis": "text" },
+    { "label": "形貌", "value": "马身而人面", "basis": "text" },
+    { "label": "异征", "value": "虎文而鸟翼", "basis": "text" },
+    { "label": "行动", "value": "徇于四海", "basis": "text" }
+  ],
+  "sourceNote": "英招见于《西山经》槐江之山。原文只规定人面、马身、虎纹与鸟翼，图像以真实马科骨架承载这些特征；翼形、面容和毛色属于艺术推定。",
+  "references": [
+    { "book": "西山经", "text": "实惟帝之平圃，神英招司之，其状马身而人面，虎文而鸟翼，徇于四海，其音如榴。" }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "menghuai",
+  "name": "孟槐",
+  "alias": "谯明御凶之兽",
+  "pinyin": "MÈNG HUÁI",
+  "type": "beast",
+  "tags": ["御凶"],
+  "volume": 3,
+  "book": "北山经",
+  "scroll": "卷三",
+  "seq": 11,
+  "plate": "贰拾陆",
+  "mark": "孟",
+  "location": "谯明之山",
+  "region": "北山首经",
+  "mapPos": { "x": 0.48, "y": 0.1 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_menghuai_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "孟槐，谯明山中貆形赤色长毛、能够御凶的异兽古籍工笔图",
+  "imageTag": "如貆 · 赤豪 · 御凶",
+  "quote": "有兽焉，其状如貆而赤豪，其音如榴榴，名曰孟槐，可以御凶。",
+  "summary": "孟槐与何罗鱼同见于谯明山，形貌如貆，遍体生有赤色粗毛，鸣声榴榴，并具有抵御凶邪的能力。它没有复合器官，奇异感主要来自鲜明的赤豪和守护属性。",
+  "facts": [
+    { "label": "所居", "value": "谯明之山", "basis": "text" },
+    { "label": "形貌", "value": "其状如貆而赤豪", "basis": "text" },
+    { "label": "鸣声", "value": "其音如榴榴", "basis": "text" },
+    { "label": "传说", "value": "可以御凶", "basis": "text" }
+  ],
+  "sourceNote": "孟槐见于《北山经》谯明之山。“貆”的具体物种解释存在空间，古注常联系豪猪；图像采用獾类与豪猪相近的矮壮体态，并强化赤色粗毛，属于艺术推定。",
+  "references": [
+    { "book": "北山经", "text": "有兽焉，其状如貆而赤豪，其音如榴榴，名曰孟槐，可以御凶。" }
+  ]
+}

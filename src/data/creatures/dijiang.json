@@ -1,0 +1,34 @@
+{
+  "slug": "dijiang",
+  "name": "帝江",
+  "alias": "浑敦无面目之神",
+  "pinyin": "DÌ JIĀNG",
+  "type": "deity",
+  "tags": ["神能"],
+  "volume": 2,
+  "book": "西山经",
+  "scroll": "卷二",
+  "seq": 80,
+  "plate": "伍拾伍",
+  "mark": "帝",
+  "location": "天山",
+  "region": "西次三经",
+  "mapPos": { "x": 0.16, "y": 0.56 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_dijiang_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "帝江，黄囊赤火、六足四翼而无面目的古籍工笔神兽图",
+  "imageTag": "黄囊 · 六足四翼 · 无面目",
+  "quote": "有神焉，其状如黄囊，赤如丹火，六足四翼，浑敦无面目，是识歌舞，实为帝江也。",
+  "summary": "帝江居于天山，形如黄色囊袋，色赤如丹火，有六足四翼，却没有面目。它虽浑敦无面，却能识歌舞，是《山海经》中极具抽象感的原始神灵形象。",
+  "facts": [
+    { "label": "身份", "value": "有神焉", "basis": "text" },
+    { "label": "形貌", "value": "如黄囊，赤如丹火", "basis": "text" },
+    { "label": "异征", "value": "六足四翼，浑敦无面目", "basis": "text" },
+    { "label": "神能", "value": "是识歌舞", "basis": "text" }
+  ],
+  "sourceNote": "帝江见于《西山经》天山。图像严格保留无面目、六足四翼和囊状身体；足翼结构与运动姿态为艺术推定。",
+  "references": [
+    { "book": "西山经", "text": "有神焉，其状如黄囊，赤如丹火，六足四翼，浑敦无面目，是识歌舞，实为帝江也。" }
+  ]
+}

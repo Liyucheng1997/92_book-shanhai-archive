@@ -1,0 +1,35 @@
+{
+  "slug": "yayu",
+  "name": "窫窳",
+  "alias": "少咸人面食人兽",
+  "pinyin": "YÀ YǓ",
+  "type": "beast",
+  "tags": ["食人"],
+  "volume": 3,
+  "book": "北山经",
+  "scroll": "卷三",
+  "seq": 25,
+  "plate": "叁拾",
+  "mark": "窫",
+  "location": "少咸之山",
+  "region": "北山首经",
+  "mapPos": { "x": 0.56, "y": 0.08 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_yayu_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "窫窳，赤色牛身、人面马足的少咸山食人异兽古籍工笔图",
+  "imageTag": "牛身 · 赤色人面 · 马足",
+  "quote": "有兽焉，其状如牛，而赤身、人面、马足，名曰窫窳，其音如婴儿，是食人。",
+  "summary": "窫窳栖息在少咸之山，主体形如牛，通体赤色，却长着人的面孔和马的足部，鸣声如婴儿啼哭，并会捕食人。熟悉的牛、马与人面被组合为一具沉重躯体，使它显得格外诡异凶险。",
+  "facts": [
+    { "label": "形貌", "value": "其状如牛而赤身", "basis": "text" },
+    { "label": "异征", "value": "人面 · 马足", "basis": "text" },
+    { "label": "鸣声", "value": "其音如婴儿", "basis": "text" },
+    { "label": "习性", "value": "是食人", "basis": "text" }
+  ],
+  "sourceNote": "窫窳在《北山经》少咸之山的形貌为牛身、赤色、人面、马足；《海内经》另记其为龙首食人，两篇传承有差异，本条只按《北山经》呈现。图像以牛科骨架连接马蹄，人面与颈部过渡属于艺术推定。",
+  "references": [
+    { "book": "北山经", "text": "有兽焉，其状如牛，而赤身、人面、马足，名曰窫窳，其音如婴儿，是食人。" },
+    { "book": "海内经", "text": "有窫窳，龙首，是食人。" }
+  ]
+}

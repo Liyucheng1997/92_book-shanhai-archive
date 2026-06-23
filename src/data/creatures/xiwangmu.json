@@ -1,0 +1,34 @@
+{
+  "slug": "xiwangmu",
+  "name": "西王母",
+  "alias": "玉山司厉之神",
+  "pinyin": "XĪ WÁNG MǓ",
+  "type": "deity",
+  "tags": ["神能"],
+  "volume": 2,
+  "book": "西山经",
+  "scroll": "卷二",
+  "seq": 70,
+  "plate": "拾柒",
+  "mark": "西",
+  "location": "玉山",
+  "region": "西次三经",
+  "mapPos": { "x": 0.1, "y": 0.78 },
+  "geoConfidence": "none",
+  "image": "/images/creatures/creature_xiwangmu_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "西王母，蓬发戴胜、豹尾虎齿且仰首长啸的玉山古神工笔图",
+  "imageTag": "人形 · 豹尾虎齿 · 戴胜",
+  "quote": "西王母其状如人，豹尾虎齿而善啸，蓬发戴胜，是司天之厉及五残。",
+  "summary": "《西山经》中的西王母尚不是后世宫廷化的王母娘娘，而是居于玉山、豹尾虎齿、蓬发戴胜并善于长啸的古老神祇。她掌管上天的灾厉与五残，形象兼具人形神性和猛兽威慑。",
+  "facts": [
+    { "label": "形貌", "value": "其状如人", "basis": "text" },
+    { "label": "异征", "value": "豹尾 · 虎齿", "basis": "text" },
+    { "label": "仪貌", "value": "蓬发戴胜 · 善啸", "basis": "text" },
+    { "label": "神职", "value": "司天之厉及五残", "basis": "text" }
+  ],
+  "sourceNote": "本条依《西山经》玉山段呈现西王母的早期形象，不采用后世凤冠霞帔、瑶池宴饮的王母娘娘造型。图中衣饰、玉胜具体结构与面容属于原文约束内的艺术推定。",
+  "references": [
+    { "book": "西山经", "text": "又西三百五十里，曰玉山，是西王母所居也。西王母其状如人，豹尾虎齿而善啸，蓬发戴胜，是司天之厉及五残。" }
+  ]
+}

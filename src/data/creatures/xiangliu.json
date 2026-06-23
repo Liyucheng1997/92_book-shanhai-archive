@@ -1,0 +1,34 @@
+{
+  "slug": "xiangliu",
+  "name": "相柳",
+  "alias": "共工九首之臣",
+  "pinyin": "XIĀNG LIǓ",
+  "type": "serpent",
+  "tags": ["毒"],
+  "volume": 8,
+  "book": "海外北经",
+  "scroll": "卷八",
+  "seq": 20,
+  "plate": "伍拾",
+  "mark": "相",
+  "location": "共工之台一带",
+  "region": "海外北方",
+  "mapPos": { "x": 0.44, "y": 0.08 },
+  "geoConfidence": "none",
+  "image": "/images/creatures/creature_xiangliu_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "相柳，九首蛇身盘踞毒泽溪流中的古籍工笔异兽图",
+  "imageTag": "九首 · 蛇身 · 毒泽",
+  "quote": "共工之臣曰相柳氏，九首，以食于九山。相柳之所抵，厥为泽溪。",
+  "summary": "相柳是共工之臣，拥有九个头，盘踞吞食九山。它所触抵之处会化为泽溪，传说中又与污血、毒土和禹治水的神话相连，带有强烈的灾害气息。",
+  "facts": [
+    { "label": "身份", "value": "共工之臣", "basis": "text" },
+    { "label": "形貌", "value": "九首", "basis": "text" },
+    { "label": "习性", "value": "以食于九山", "basis": "text" },
+    { "label": "灾异", "value": "所抵为泽溪", "basis": "text" }
+  ],
+  "sourceNote": "相柳见于《海外北经》。原文突出九首与毒泽，图像以蛇身补足身体结构；鳞色、泽地环境和九首排列属于艺术推定。",
+  "references": [
+    { "book": "海外北经", "text": "共工之臣曰相柳氏，九首，以食于九山。相柳之所抵，厥为泽溪。" }
+  ]
+}

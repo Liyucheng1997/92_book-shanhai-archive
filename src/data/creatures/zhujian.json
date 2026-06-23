@@ -1,0 +1,34 @@
+{
+  "slug": "zhujian",
+  "name": "诸犍",
+  "alias": "衔尾独目之兽",
+  "pinyin": "ZHŪ JIĀN",
+  "type": "beast",
+  "tags": [],
+  "volume": 3,
+  "book": "北山经",
+  "scroll": "卷三",
+  "seq": 20,
+  "plate": "叁拾壹",
+  "mark": "諸",
+  "location": "单张之山",
+  "region": "北山首经",
+  "mapPos": { "x": 0.28, "y": 0.1 },
+  "geoConfidence": "low",
+  "image": "/images/creatures/creature_zhujian_v01.jpg",
+  "imageClass": "",
+  "imageAlt": "诸犍，豹身长尾、人首牛耳独目并衔尾行走的古籍工笔图",
+  "imageTag": "豹身长尾 · 人首牛耳 · 独目衔尾",
+  "quote": "有兽焉，其状如豹而长尾，人首而牛耳，一目，名曰诸犍，善吒，行则衔其尾，居则蟠其尾。",
+  "summary": "诸犍出自单张之山，身体像豹并拖着极长的尾巴，却生有人首、牛耳和一只眼睛。它善于厉声叱叫，行走时把自己的尾端衔在口中，停驻时则将长尾盘起，动作习性比单纯的复合形貌更具辨识度。",
+  "facts": [
+    { "label": "形貌", "value": "如豹而长尾", "basis": "text" },
+    { "label": "异征", "value": "人首牛耳 · 一目", "basis": "text" },
+    { "label": "鸣声", "value": "善吒", "basis": "text" },
+    { "label": "习性", "value": "行则衔尾，居则蟠尾", "basis": "text" }
+  ],
+  "sourceNote": "诸犍见于《北山经》单张之山。原文明确其行走时衔尾、停驻时盘尾；图像选择衔尾行走状态，并用豹科骨架承载人首与牛耳，头颈连接和斑纹样式属于艺术推定。",
+  "references": [
+    { "book": "北山经", "text": "有兽焉，其状如豹而长尾，人首而牛耳，一目，名曰诸犍，善吒，行则衔其尾，居则蟠其尾。" }
+  ]
+}
